@@ -1,0 +1,15 @@
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\bin\Debug\net7.0\ShopManagement.Application.Contracts.deps.json
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\bin\Debug\net7.0\ShopManagement.Application.Contracts.dll
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\bin\Debug\net7.0\01_framework.dll
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\bin\Debug\net7.0\01_framework.pdb
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.csproj.AssemblyReference.cache
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.AssemblyInfo.cs
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.csproj.CopyComplete
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.dll
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\obj\Debug\net7.0\refint\ShopManagement.Application.Contracts.dll
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\obj\Debug\net7.0\ShopManagement.Application.Contracts.pdb
+D:\Projects\DigiShop\DigiShop\ShopManagement.Application.Contracts\obj\Debug\net7.0\ref\ShopManagement.Application.Contracts.dll

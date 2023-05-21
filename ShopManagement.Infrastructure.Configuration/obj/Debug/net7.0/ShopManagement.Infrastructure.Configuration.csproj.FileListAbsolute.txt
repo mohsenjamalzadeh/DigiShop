@@ -1,0 +1,5 @@
+D:\Projects\DigiShop\DigiShop\ShopManagement.Infrastructure.Configuration\obj\Debug\net7.0\ShopManagement.Infrastructure.Configuration.csproj.AssemblyReference.cache
+D:\Projects\DigiShop\DigiShop\ShopManagement.Infrastructure.Configuration\obj\Debug\net7.0\ShopManagement.Infrastructure.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DigiShop\DigiShop\ShopManagement.Infrastructure.Configuration\obj\Debug\net7.0\ShopManagement.Infrastructure.Configuration.AssemblyInfoInputs.cache
+D:\Projects\DigiShop\DigiShop\ShopManagement.Infrastructure.Configuration\obj\Debug\net7.0\ShopManagement.Infrastructure.Configuration.AssemblyInfo.cs
+D:\Projects\DigiShop\DigiShop\ShopManagement.Infrastructure.Configuration\obj\Debug\net7.0\ShopManagement.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
