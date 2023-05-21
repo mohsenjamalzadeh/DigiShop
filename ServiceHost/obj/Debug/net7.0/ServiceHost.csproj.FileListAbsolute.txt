@@ -81,3 +81,8 @@ D:\Projects\DigiShop\DigiShop\ServiceHost\obj\Debug\net7.0\refint\ServiceHost.dl
 D:\Projects\DigiShop\DigiShop\ServiceHost\obj\Debug\net7.0\ServiceHost.pdb
 D:\Projects\DigiShop\DigiShop\ServiceHost\obj\Debug\net7.0\ServiceHost.genruntimeconfig.cache
 D:\Projects\DigiShop\DigiShop\ServiceHost\obj\Debug\net7.0\ref\ServiceHost.dll
+D:\Projects\DigiShop\DigiShop\ServiceHost\bin\Debug\net7.0\Humanizer.dll
+D:\Projects\DigiShop\DigiShop\ServiceHost\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\DigiShop\DigiShop\ServiceHost\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Projects\DigiShop\DigiShop\ServiceHost\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Projects\DigiShop\DigiShop\ServiceHost\bin\Debug\net7.0\System.CodeDom.dll
