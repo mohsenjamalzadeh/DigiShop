@@ -6,9 +6,14 @@ namespace BlogManagement.Domain.Blog
     {
         // Category Missed
        
+<<<<<<< HEAD
         // Dash Dashi Missed / baghal(づ￣ 3￣)づ
 
      
+=======
+        // Dash Dashi Missed
+
+>>>>>>> 303c85e04a12b7a84672d371e67ae7c0c86d1c07
         public string Title { get; private set; }
         public string ShortDescription { get; private set; }
         public string Body { get; private set; }
@@ -75,7 +80,10 @@ namespace BlogManagement.Domain.Blog
             Slug = slug;
             CategoryId = categoryId;
             StudyTime = studyTime;
+<<<<<<< HEAD
             Modefied();
+=======
+>>>>>>> 303c85e04a12b7a84672d371e67ae7c0c86d1c07
         }
 
         public void Active()=>

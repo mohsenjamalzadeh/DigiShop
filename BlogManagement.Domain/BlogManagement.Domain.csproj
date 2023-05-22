@@ -6,8 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <ProjectReference Include="..\01_framework\01_framework.csproj" />
   </ItemGroup>
 
+=======
+>>>>>>> 303c85e04a12b7a84672d371e67ae7c0c86d1c07
 </Project>

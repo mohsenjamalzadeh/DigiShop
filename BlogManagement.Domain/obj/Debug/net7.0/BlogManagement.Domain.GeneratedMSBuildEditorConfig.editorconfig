@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlogManagement.Domain
+<<<<<<< HEAD
 build_property.ProjectDir = D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\
+=======
+build_property.ProjectDir = C:\Users\Omen 15\source\repos\DigiShop\BlogManagement.Domain\
+>>>>>>> 303c85e04a12b7a84672d371e67ae7c0c86d1c07

@@ -8,11 +8,16 @@
     "net7.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\mohsen\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Omen 15\\.nuget\\packages\\": {}
+>>>>>>> 303c85e04a12b7a84672d371e67ae7c0c86d1c07
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Projects\\DigiShop\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
       "projectName": "BlogManagement.Application.Contracts",
       "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
@@ -21,6 +26,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
+      "projectName": "BlogManagement.Application.Contracts",
+      "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
+      "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 303c85e04a12b7a84672d371e67ae7c0c86d1c07
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +76,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+>>>>>>> 303c85e04a12b7a84672d371e67ae7c0c86d1c07
       }
     }
   }
