@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     @* <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-        @*<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />*@
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @*<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />*@
     @*<link rel="stylesheet" href="~/ServiceHost.styles.css" asp-append-version="true" />*@*
 
 
@@ -60,8 +60,10 @@
         <partial name="_Menu" />
 
         <div class="content-body">
-            <!-- row -->
-            @RenderBody()
+            <div class="container-fluid">
+                @RenderBody()
+            </div>
+
         </div>
 
 
@@ -74,6 +76,12 @@
         </div>
 
 
+        <div id="MainModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content" id="ModalContent">
+                </div>
+            </div>
+        </div>
 
 
 
@@ -82,8 +90,8 @@
 
 
     @*<script src="~/lib/jquery/dist/jquery.min.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
     *@
 
     <!-- Required vendors -->
@@ -108,11 +116,11 @@
     <script src="~/AdminThem/js/site.js"></script>
 
     <script>
-        jQuery(document).ready(function(){
-            setTimeout(function() {
+        jQuery(document).ready(function () {
+            setTimeout(function () {
                 dezSettingsOptions.version = 'dark';
                 new dezSettings(dezSettingsOptions);
-            },500)
+            }, 500)
         });
     </script>
     @await RenderSectionAsync("Scripts", required: false)

@@ -1,0 +1,12 @@
+D:\Projects\DigiShop\DigiShop\BlogManagement.Application.Contracts\bin\Debug\net7.0\BlogManagement.Application.Contracts.deps.json
+D:\Projects\DigiShop\DigiShop\BlogManagement.Application.Contracts\bin\Debug\net7.0\BlogManagement.Application.Contracts.dll
+D:\Projects\DigiShop\DigiShop\BlogManagement.Application.Contracts\bin\Debug\net7.0\BlogManagement.Application.Contracts.pdb
+D:\Projects\DigiShop\DigiShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.csproj.AssemblyReference.cache
+D:\Projects\DigiShop\DigiShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DigiShop\DigiShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\Projects\DigiShop\DigiShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.AssemblyInfo.cs
+D:\Projects\DigiShop\DigiShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Projects\DigiShop\DigiShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.dll
+D:\Projects\DigiShop\DigiShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\refint\BlogManagement.Application.Contracts.dll
+D:\Projects\DigiShop\DigiShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\BlogManagement.Application.Contracts.pdb
+D:\Projects\DigiShop\DigiShop\BlogManagement.Application.Contracts\obj\Debug\net7.0\ref\BlogManagement.Application.Contracts.dll

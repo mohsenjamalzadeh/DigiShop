@@ -1,0 +1,15 @@
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\bin\Debug\net7.0\BlogManagement.Domain.deps.json
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\bin\Debug\net7.0\BlogManagement.Domain.dll
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\bin\Debug\net7.0\BlogManagement.Domain.pdb
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\bin\Debug\net7.0\01_framework.dll
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\bin\Debug\net7.0\01_framework.pdb
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\obj\Debug\net7.0\BlogManagement.Domain.csproj.AssemblyReference.cache
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\obj\Debug\net7.0\BlogManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\obj\Debug\net7.0\BlogManagement.Domain.AssemblyInfoInputs.cache
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\obj\Debug\net7.0\BlogManagement.Domain.AssemblyInfo.cs
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\obj\Debug\net7.0\BlogManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\obj\Debug\net7.0\BlogManagement.Domain.csproj.CopyComplete
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\obj\Debug\net7.0\BlogManagement.Domain.dll
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\obj\Debug\net7.0\refint\BlogManagement.Domain.dll
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\obj\Debug\net7.0\BlogManagement.Domain.pdb
+D:\Projects\DigiShop\DigiShop\BlogManagement.Domain\obj\Debug\net7.0\ref\BlogManagement.Domain.dll

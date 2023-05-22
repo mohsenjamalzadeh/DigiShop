@@ -42,6 +42,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
             KeyWords = keyWords;
             MetaDescription = metaDescription;
             Slug = slug;
+            Modefied();
         }
     }
 }

@@ -46,9 +46,10 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                 Name = p.Name,
                 Picture = p.Picture,
                 Id = p.Id,
-                CreationDate = p.CreationDate.ToFarsi(),
+                CreationDate = p.CreationDate.ToString("g"),
                 PictureTitle = p.PictureTitle,
-                PictureAlt = p.PictureAlt
+                PictureAlt = p.PictureAlt,
+                ModefiedDate=p.ModefiedDate.ToString("g")
             }); 
 
             if(!string.IsNullOrWhiteSpace(searchModel.Name))

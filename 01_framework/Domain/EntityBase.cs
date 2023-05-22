@@ -3,11 +3,11 @@
     public class EntityBase
     {
         public long Id { get;private set; }
-        public DateTime CreationDate { get;private set; }
+        public DateTime CreationDate { get;private set; } = DateTime.Now;
+        public DateTime ModefiedDate { get;private set; }=DateTime.Now;
 
-        public EntityBase()
-        {
-            CreationDate = DateTime.Now;
-        }
+        public void Modefied()=>ModefiedDate = DateTime.Now;
+        
+
     }
 }

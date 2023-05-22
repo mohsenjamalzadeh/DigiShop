@@ -1,0 +1,92 @@
+﻿@page
+@model ServiceHost.Areas.Administrator.Pages.Shop.ProductCategories.IndexModel
+@{
+    ViewData["DashbordBar"] = "Product Categories";
+}
+
+
+<div class="row page-titles">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active"><a href="javascript:void(0)">Search Product Categories </a></li>
+
+    </ol>
+
+    <div class="card-body">
+        <div class="basic-form">
+            <form role="form" method="get" >
+                <div class="row">
+                    <div class="col-sm-4">
+                        <input asp-for="searchModel.Name" type="text" class="form-control" placeholder="Product Category Name">
+                    </div>
+                    <div class="col-sm-4">
+                        <button type="submit" class="btn btn-primary mb-2">Serarch</button>
+                        <a class="btn btn-primary mb-2" asp-page="./Index">Get All</a>
+
+                    </div>
+
+                </div>
+            </form>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">List Product Categories</h4>
+            <a href="#showmodal=@Url.Page("./Index", "Create")" class="btn btn-success mb-2">Create Product Category</a>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-responsive-md">
+                    <thead>
+                        <tr>
+                            <th style="width:80px;"><strong>#</strong></th>
+                            <th><strong>Name</strong></th>
+                            <th><strong>CreationDate</strong></th>
+                            <th><strong>ModefiedDate</strong></th>
+                            <th><strong>Actions</strong></th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.ProductCategories)
+                        {
+
+                            <tr>
+                                <td><strong>@item.Id</strong></td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="@item.Picture" title="@item.PictureTitle" Alt="@item.PictureAlt" class="rounded-lg me-2" alt="" width="35">
+                                        <span class="w-space-no">@item.Name</span>
+                                    </div>
+                                </td>
+                                <td>@item.CreationDate</td>
+                                <td>@item.ModefiedDate</td>
+
+                                <td>
+                                    <div class="dropdown">
+                                        <button type="button" class="btn btn-success light sharp" data-bs-toggle="dropdown">
+                                            <svg width="20px" height="20px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg>
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">Edit</a>
+                                            @* <a class="dropdown-item" href="#">Delete</a>*@
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
