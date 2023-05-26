@@ -3538,19 +3538,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Omen 15\\.nuget\\packages\\": {}
+    "C:\\Users\\mohsen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ServiceHost\\ServiceHost.csproj",
+      "projectUniqueName": "D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\ServiceHost.csproj",
       "projectName": "ServiceHost",
-      "projectPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ServiceHost\\ServiceHost.csproj",
-      "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ServiceHost\\obj\\",
+      "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\ServiceHost.csproj",
+      "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3558,14 +3558,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj"
+            "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj"
             }
           }
         }
@@ -3606,7 +3607,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

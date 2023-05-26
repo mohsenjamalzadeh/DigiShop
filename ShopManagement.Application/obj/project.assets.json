@@ -574,19 +574,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Omen 15\\.nuget\\packages\\": {}
+    "C:\\Users\\mohsen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Application\\ShopManagement.Application.csproj",
+      "projectUniqueName": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application\\ShopManagement.Application.csproj",
       "projectName": "ShopManagement.Application",
-      "projectPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Application\\ShopManagement.Application.csproj",
-      "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Application\\obj\\",
+      "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application\\ShopManagement.Application.csproj",
+      "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -600,11 +600,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-              "projectPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+            "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+              "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
             },
-            "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-              "projectPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+            "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+              "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
             }
           }
         }
@@ -634,7 +634,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

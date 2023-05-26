@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "sz5NzHQ0brJzXJdlFt1/ssck/XwMqKwCqemvT7Uc+7i23FcKU3FMAVywOaoiVeaPGlCue4/BqjxR9bnBVFX2ug==",
   "success": true,
   "projectFilePath": "D:\\Projects\\DigiShop\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
-=======
-  "dgSpecHash": "UNi7LpIdnIkqe9AmppMDFd1xYQqYQH+oWyNqcydNWKGbNT3k5ZFjZyelLelUH40Kfy2L4Dl/9Zvii9i6RIVUVw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
->>>>>>> 303c85e04a12b7a84672d371e67ae7c0c86d1c07
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Projects\\DigiShop\\DigiShop\\BlogManagement.Application.Contracts\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

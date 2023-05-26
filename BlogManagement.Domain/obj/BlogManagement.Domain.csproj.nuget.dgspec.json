@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "D:\\Projects\\DigiShop\\DigiShop\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {}
   },
   "projects": {
@@ -16,22 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\01_framework\\01_framework.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\01_framework\\01_framework.csproj",
-        "projectName": "01_framework",
-        "projectPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\01_framework\\01_framework.csproj",
-        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\01_framework\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 303c85e04a12b7a84672d371e67ae7c0c86d1c07
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +61,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
@@ -94,23 +76,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
-        "projectName": "BlogManagement.Domain",
-        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 303c85e04a12b7a84672d371e67ae7c0c86d1c07
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,13 +89,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-<<<<<<< HEAD
               "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\01_framework.csproj": {
                 "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\01_framework.csproj"
-=======
-              "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj": {
-                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj"
->>>>>>> 303c85e04a12b7a84672d371e67ae7c0c86d1c07
               }
             }
           }
@@ -160,11 +120,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
->>>>>>> 303c85e04a12b7a84672d371e67ae7c0c86d1c07
         }
       }
     }
