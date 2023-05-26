@@ -58,5 +58,10 @@ namespace ShopManagement.Application
         {
             return _productCategoryRepository.GetAll(searchModel);
         }
+
+        public List<ProductCategoryViewmodel> GetAll()
+        {
+            return _productCategoryRepository.GetAllCa();
+        }
     }
 }

@@ -5,21 +5,22 @@ namespace ShopManagement.Domain.ProductAgg
 {
     public class Product : EntityBase
     {
-        public string Name { get; private set; }
-        public string Code { get; private set; }
-        public string Description { get; private set; }
+        public string Name { get; set; }
+        public string Code { get; set; }
+        public string Description { get; set; }
+        public bool IsDeleted { get; private set; }
 
-        public string PictureAlt { get; private set; }
-        public string PictureTitle { get; private set; }
-        public string Picture { get; private set; }
+        public string PictureAlt { get; set; }
+        public string PictureTitle { get; set; }
+        public string Picture { get; set; }
 
 
-        public string Slug { get; private set; }
-        public string MetaDescription { get; private set; }
-        public string KeyWords { get; private set; }
+        public string Slug { get; set; }
+        public string MetaDescription { get; set; }
+        public string KeyWords { get; set; }
 
-        public long ProductCategoryId { get; private set; }
-        public ProductCategory productCategory { get; private set; }
+        public long ProductCategoryId { get; set; }
+        public ProductCategory productCategory { get; set; }
 
         public Product(string name, string code, string description,
             string pictureAlt, string pictureTitle, string picture,
@@ -36,6 +37,7 @@ namespace ShopManagement.Domain.ProductAgg
             MetaDescription = metaDescription;
             KeyWords = keyWrords;
             ProductCategoryId = productCategoryId;
+            IsDeleted= false;
         }
 
 
@@ -57,5 +59,8 @@ namespace ShopManagement.Domain.ProductAgg
             base.SetModefiedDate();
         }
 
+
+        public void Active()=>IsDeleted=false;
+        public void DeActive()=>IsDeleted=true;
     }
 }

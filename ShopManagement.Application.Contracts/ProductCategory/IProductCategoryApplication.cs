@@ -10,4 +10,5 @@ public interface IProductCategoryApplication
     OperationResult EditProductCategory(EditProductCategory command);
     EditProductCategory GetDetails(long id);
     List<ProductCategoryViewmodel> GetAll(ProductCategorySearchModel searchModel);
+    List<ProductCategoryViewmodel> GetAll();
 }
