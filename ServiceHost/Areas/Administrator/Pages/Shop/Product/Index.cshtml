@@ -1,0 +1,131 @@
+﻿@page
+@model ServiceHost.Areas.Administrator.Pages.Shop.Product.IndexModel
+@{
+    ViewData["DashbordBar"] = "Products ";
+}
+
+
+
+
+
+<div class="row page-titles">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active"><a href="javascript:void(0)">Search Products </a></li>
+
+    </ol>
+
+    <div class="card-body">
+        <div class="basic-form">
+            <form role="form" method="get">
+                <div class="row">
+                    <div class="col-sm-3 form-group">
+                        <input asp-for="searchModel.Name" type="text" class="form-control" placeholder="Product Name">
+                    </div>
+                    <div class="col-sm-3 form-group">
+                        <input asp-for="searchModel.Code" type="text" class="form-control" placeholder="Code">
+                    </div>
+                    <div class="col-sm-3 form-group">
+                        <select class="form-control" asp-for="searchModel.CategoryId" asp-items="Model.Categories">
+                            <option value="0">Category ...</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3 form-group">
+                        <button type="submit" class="btn btn-primary mb-2">Serarch</button>
+                        <a class="btn btn-primary mb-2" asp-page="./Index">Get All</a>
+
+                    </div>
+
+                </div>
+            </form>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">List Products </h4>
+            <a href="#showmodal=@Url.Page("./Index", "Create")" class="btn btn-success mb-2">Create Product </a>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-responsive-md">
+                    <thead>
+                        <tr>
+                            <th style="width:80px;"><strong>#</strong></th>
+                            <th><strong>Name</strong></th>
+                            <th><strong>Code</strong></th>
+                            <th><strong>Name Category</strong></th>
+                            <th><strong>Description</strong></th>
+                            <th><strong>Is Active</strong></th>
+                            <th><strong>CreationDate</strong></th>
+                            <th><strong>ModefiedDate</strong></th>
+                            <th><strong>Actions</strong></th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Products)
+                        {
+
+                            <tr>
+                                <td><strong>@item.Id</strong></td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="@item.Picture" title="@item.PictureTitle" Alt="@item.PictureAlt" class="rounded-lg me-2" alt="" width="35">
+                                        <span class="w-space-no">@item.Name</span>
+                                    </div>
+                                </td>
+                                <td>@item.Code</td>
+                                <td>@item.NameCategory</td>
+                                <td>@item.Description</td>
+                                <td>
+                                    @if (item.IsDeleted)
+                                    {
+                                        <span class="badge light badge-danger">DeActive</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge light badge-success">Active</span>
+                                    }
+
+                                </td>
+
+                                <td>@item.CreationDate</td>
+                                <td>@item.ModefiedDate</td>
+
+
+                                <td>
+                                    <div class="d-flex">
+
+                                        <a href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
+
+                                        @if (item.IsDeleted)
+                                        {
+                                            <a asp-page="./Index" asp-page-handler="Active" asp-route-id="@item.Id" class="btn btn-success shadow btn-xs sharp me-1"><i class="fa fa-reply"></i></a>
+                                        }
+                                        else
+                                        {
+                                            <a asp-page="./Index" asp-page-handler="DeActive" asp-route-id="@item.Id" class="btn btn-danger shadow btn-xs sharp me-1"><i class="fa fa-trash"></i></a>
+
+                                        }
+
+                                        <a href="#" class="btn btn-warning shadow btn-xs sharp me-1"><i class="fa fa-clipboard"></i></a>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -21,6 +21,8 @@ namespace ShopManagement.Domain.ProductAgg
 
         public long ProductCategoryId { get; set; }
         public ProductCategory productCategory { get; set; }
+        
+        protected Product(){}
 
         public Product(string name, string code, string description,
             string pictureAlt, string pictureTitle, string picture,

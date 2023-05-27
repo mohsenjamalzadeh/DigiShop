@@ -58,7 +58,7 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
             return query.OrderByDescending(p => p.Id).ToList();
         }
 
-        public List<ProductCategoryViewmodel> GetAllCa()
+        public List<ProductCategoryViewmodel> GetCategories()
         {
             var query = _context.ProductCategories.Select(p => new ProductCategoryViewmodel
             {

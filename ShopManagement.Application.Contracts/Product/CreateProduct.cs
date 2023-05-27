@@ -1,6 +1,7 @@
-﻿using System.Reflection.PortableExecutable;
+﻿using ShopManagement.Application.Contracts.ProductCategory;
+using System.Reflection.PortableExecutable;
 
-namespace ShopManagement.Application.Contracts.Peoduct
+namespace ShopManagement.Application.Contracts.Product
 {
     public class CreateProduct
     {
@@ -18,5 +19,6 @@ namespace ShopManagement.Application.Contracts.Peoduct
         public string KeyWords { get; set; }
 
         public long ProductCategoryId { get; set; }
+        public List<ProductCategoryViewmodel> Categories { get; set; }
     }
 }

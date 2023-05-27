@@ -21,12 +21,14 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                 Code = p.Code,
                 Name = p.Name,
                 Picture = p.Picture,
+                IsDeleted = p.IsDeleted,
                 PictureAlt = p.PictureAlt,
                 PictureTitle = p.PictureTitle,
                 CategoryId = p.ProductCategoryId,
                 NameCategory = p.productCategory.Name,
                 ModefiedDate = p.ModefiedDate.ToString("g"),
                 CreationDate = p.CreationDate.ToString("g"),
+                Description = p.Description.Substring(0, 20) + "...",
 
             });
 
@@ -65,7 +67,7 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                 MetaDescription = p.MetaDescription,
                 ProductCategoryId = p.ProductCategoryId,
 
-            }).FirstOrDefault(p=>p.Id==id);
+            }).FirstOrDefault(p => p.Id == id);
 
             return product;
         }

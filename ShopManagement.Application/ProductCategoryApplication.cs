@@ -17,7 +17,7 @@ namespace ShopManagement.Application
         {
             var operation = new OperationResult();
             if (_productCategoryRepository.IsExist(p => p.Name == command.Name))
-                return operation.Failed("");
+                return operation.Failed(ResultMessage.IsDoblicated);
 
             var slug = command.Slug.Slugify();
             var productCategory = new ProductCategory(command.Name, command.Description, command.PictureAlt,
@@ -34,10 +34,10 @@ namespace ShopManagement.Application
             var productCategory = _productCategoryRepository.GetBy(command.Id);
 
             if (productCategory == null)
-                return operation.Failed("");
+                return operation.Failed(ResultMessage.IsNotExistRecord);
 
             if (_productCategoryRepository.IsExist(p => p.Name == command.Name && p.Id != command.Id))
-                return operation.Failed("");
+                return operation.Failed(ResultMessage.IsDoblicated);
 
             var slug = command.Slug.Slugify();
 
@@ -59,9 +59,9 @@ namespace ShopManagement.Application
             return _productCategoryRepository.GetAll(searchModel);
         }
 
-        public List<ProductCategoryViewmodel> GetAll()
+        public List<ProductCategoryViewmodel> GetCategories()
         {
-            return _productCategoryRepository.GetAllCa();
+            return _productCategoryRepository.GetCategories();
         }
     }
 }
