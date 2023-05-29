@@ -12,7 +12,7 @@ using ShopManagement.Domain.ProductCategoryAgg;
 
 namespace ShopManagement.Infrastructure.EfCore.Repository
 {
-    public class ProductCategoryRepository:RepositoryBase<long,ProductCategory>,IProductCategoryRepository
+    public class ProductCategoryRepository : RepositoryBase<long, ProductCategory>, IProductCategoryRepository
     {
         private readonly ShopContext _context;
         public ProductCategoryRepository(ShopContext context) : base(context)
@@ -46,15 +46,27 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
                 Name = p.Name,
                 Picture = p.Picture,
                 Id = p.Id,
-                CreationDate = p.CreationDate.ToFarsi(),
+                CreationDate = p.CreationDate.ToString("g"),
                 PictureTitle = p.PictureTitle,
-                PictureAlt = p.PictureAlt
-            }); 
+                PictureAlt = p.PictureAlt,
+                ModefiedDate = p.ModefiedDate.ToString("g")
+            });
 
-            if(!string.IsNullOrWhiteSpace(searchModel.Name))
-                query=query.Where(p=>p.Name.Contains(searchModel.Name));
+            if (!string.IsNullOrWhiteSpace(searchModel.Name))
+                query = query.Where(p => p.Name.Contains(searchModel.Name));
 
-            return query.OrderByDescending(p=>p.Id).ToList();
+            return query.OrderByDescending(p => p.Id).ToList();
+        }
+
+        public List<ProductCategoryViewmodel> GetCategories()
+        {
+            var query = _context.ProductCategories.Select(p => new ProductCategoryViewmodel
+            {
+                Id = p.Id,
+                Name = p.Name
+
+            }).AsNoTracking().ToList();
+            return query;
         }
     }
 }

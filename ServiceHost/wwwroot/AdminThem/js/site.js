@@ -18,7 +18,7 @@ SinglePage.LoadModal = function () {
             $.validator.unobtrusive.parse(newForm);
             showModal();
         }).fail(function (error) {
-            alert("خطایی رخ داده، لطفا با مدیر سیستم تماس بگیرید.");
+            alert("An error occurred, please contact the system administrator");
         });
 };
 
@@ -76,7 +76,7 @@ $(document).ready(function () {
                         CallBackHandler(data, action, form);
                     },
                     error: function (data) {
-                        alert("خطایی رخ داده است. لطفا با مدیر سیستم تماس بگیرید.");
+                        alert("An error occurred, please contact the system administrator");
                     }
                 });
             }
@@ -144,7 +144,7 @@ function checkSlugDuplication(url, dist) {
         url: url + '/' + id,
         success: function (data) {
             if (data) {
-                sendNotification('error', 'top right', "خطا", "اسلاگ نمی تواند تکراری باشد");
+                sendNotification('error', 'top right', "error", "Slug cannot be repeated");
             }
         }
     });
@@ -169,7 +169,7 @@ $(document).on("click",
             url = url + "/" + fieldValue;
         }
         if (button.data("request-confirm") == true) {
-            if (confirm("آیا از انجام این عملیات اطمینان دارید؟")) {
+            if (confirm("Are you sure about doing this operation?")) {
                 handleAjaxCall(method, url, data);
             }
         } else {
@@ -186,7 +186,7 @@ function handleAjaxCall(method, url, data) {
             function (data) {
 
             }).fail(function (error) {
-                alert("خطایی رخ داده است. لطفا با مدیر سیستم تماس بگیرید.");
+                alert("An error has occurred. Please contact the system administrator");
             });
     }
 }

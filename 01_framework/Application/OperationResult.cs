@@ -10,7 +10,7 @@
             Sucssesed = false;
         }
 
-        public OperationResult IsSucssed(string massage="عملیات با موفقیت انجام شد ")
+        public OperationResult IsSucssed(string massage="mission accomplished ")
         {
             Sucssesed=true;
             Message = massage;

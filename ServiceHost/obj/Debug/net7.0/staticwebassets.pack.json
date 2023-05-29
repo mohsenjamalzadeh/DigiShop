@@ -20153,6 +20153,10 @@
       "PackagePath": "staticwebassets\\AdminThem\\images\\profile\\pic1.jpg"
     },
     {
+      "Id": "D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\wwwroot\\AdminThem\\images\\profile\\pro.jpg",
+      "PackagePath": "staticwebassets\\AdminThem\\images\\profile\\pro.jpg"
+    },
+    {
       "Id": "D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\wwwroot\\AdminThem\\images\\profile\\profile.png",
       "PackagePath": "staticwebassets\\AdminThem\\images\\profile\\profile.png"
     },

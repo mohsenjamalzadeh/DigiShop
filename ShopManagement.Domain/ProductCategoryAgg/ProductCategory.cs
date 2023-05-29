@@ -1,4 +1,5 @@
 ﻿using _01_framework.Domain;
+using ShopManagement.Domain.ProductAgg;
 
 namespace ShopManagement.Domain.ProductCategoryAgg
 {
@@ -6,12 +7,16 @@ namespace ShopManagement.Domain.ProductCategoryAgg
     {
         public string Name { get;private set; }
         public string Description { get;private set; }
+
         public string PictureAlt { get;private set; }
         public string PictureTitle { get;private set; }
         public string Picture { get;private set; }
+
         public string KeyWords { get;private set; }
         public string MetaDescription { get; private set; }
         public string Slug { get; private set; }
+
+        public List<Product> Products{ get; set; }
 
         public ProductCategory(string name,
             string description, string pictureAlt,
@@ -42,6 +47,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
             KeyWords = keyWords;
             MetaDescription = metaDescription;
             Slug = slug;
+            SetModefiedDate();
         }
     }
 }
