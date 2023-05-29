@@ -43,7 +43,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
             Description = description;
             PictureAlt = pictureAlt;
             PictureTitle = pictureTitle;
-            Picture = picture;
+            if(picture is not null) Picture = picture;
             KeyWords = keyWords;
             MetaDescription = metaDescription;
             Slug = slug;

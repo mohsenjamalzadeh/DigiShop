@@ -67,5 +67,7 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
             }).AsNoTracking().ToList();
             return query;
         }
+
+        public string GetSlugForUploadfile(long id) => _context.ProductCategories.FirstOrDefault(p => p.Id == id).Name;
     }
 }

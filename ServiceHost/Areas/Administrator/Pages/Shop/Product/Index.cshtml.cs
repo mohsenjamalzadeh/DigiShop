@@ -53,7 +53,7 @@ namespace ServiceHost.Areas.Administrator.Pages.Shop.Product
 
         public IActionResult OnPostEdit(EditProduct command)
         {
-            var result = _productApplication.EditProduct(command);
+            var result =_productApplication.EditProduct(command);
             return new JsonResult(result);
         }
 

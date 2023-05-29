@@ -1,4 +1,5 @@
-﻿using ShopManagement.Application.Contracts.ProductCategory;
+﻿using Microsoft.AspNetCore.Http;
+using ShopManagement.Application.Contracts.ProductCategory;
 using System.Reflection.PortableExecutable;
 
 namespace ShopManagement.Application.Contracts.Product
@@ -11,7 +12,7 @@ namespace ShopManagement.Application.Contracts.Product
 
         public string PictureAlt { get; set; }
         public string PictureTitle { get; set; }
-        public string Picture { get; set; }
+        public IFormFile Picture { get; set; }
 
 
         public string Slug { get; set; }
