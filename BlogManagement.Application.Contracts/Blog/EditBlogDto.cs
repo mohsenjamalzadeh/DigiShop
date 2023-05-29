@@ -2,6 +2,6 @@
 {
     public class EditBlogDto : CreateBlogDto
     {
-
+        public long Id { get; set; }
     }
 }
