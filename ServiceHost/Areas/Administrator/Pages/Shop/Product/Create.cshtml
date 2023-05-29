@@ -52,6 +52,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
+                    <label asp-for="ProductCategoryId" class="control-label">Product Category</label>
                     <select class="form-control" asp-for="ProductCategoryId" asp-items='new SelectList(Model.Categories,"Id","Name")'>
                         <option value="0">Category ...</option>
                     </select>

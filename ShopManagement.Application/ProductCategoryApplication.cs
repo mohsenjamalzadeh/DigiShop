@@ -6,11 +6,15 @@ namespace ShopManagement.Application
 {
     public class ProductCategoryApplication : IProductCategoryApplication
     {
+        private readonly IFileUploader _fileUploader;
         private readonly IProductCategoryRepository _productCategoryRepository;
 
-        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository)
+
+        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository,IFileUploader fileUploader)
         {
+            _fileUploader=fileUploader;
             _productCategoryRepository = productCategoryRepository;
+            
         }
 
         public OperationResult CreateProductCategory(CreateProductCategory command)
@@ -20,9 +24,11 @@ namespace ShopManagement.Application
                 return operation.Failed(ResultMessage.IsDoblicated);
 
             var slug = command.Slug.Slugify();
+            var Path=$"ProductCategories//{command.Slug}";
+            string picture=_fileUploader.Upload(command.Picture,Path);
             var productCategory = new ProductCategory(command.Name, command.Description, command.PictureAlt,
                 command.PictureTitle
-                , command.Picture, command.KeyWords, command.MetaDescription, slug);
+                , picture, command.KeyWords, command.MetaDescription, slug);
             _productCategoryRepository.Create(productCategory);
             _productCategoryRepository.SaveChanges();
             return operation.IsSucssed();
@@ -40,10 +46,12 @@ namespace ShopManagement.Application
                 return operation.Failed(ResultMessage.IsDoblicated);
 
             var slug = command.Slug.Slugify();
+            var Path=$"ProductCategories//{command.Slug}";
+            string picture=_fileUploader.Upload(command.Picture,Path);
 
             productCategory.Edit(command.Name, command.Description, command.PictureAlt,
                 command.PictureTitle
-                , command.Picture, command.KeyWords, command.MetaDescription, slug);
+                , picture, command.KeyWords, command.MetaDescription, slug);
 
             _productCategoryRepository.SaveChanges();
             return operation.IsSucssed();

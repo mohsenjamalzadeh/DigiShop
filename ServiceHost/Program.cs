@@ -1,3 +1,5 @@
+using _01_framework.Application;
+using ServiceHost;
 using ShopManagement.Infrastructure.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +10,11 @@ builder.Services.AddRazorPages();
 string connection = builder.Configuration.GetConnectionString("DigiShop");
 
 ShopManagementBootstrapper.Configure(builder.Services, connection);
+
+
+builder.Services.AddTransient<IFileUploader, FileUploader>();
+
+
 
 
 var app = builder.Build();
