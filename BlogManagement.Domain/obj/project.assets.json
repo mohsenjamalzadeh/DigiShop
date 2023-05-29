@@ -210,6 +210,19 @@
         "runtime": {
           "bin/placeholder/01_framework.dll": {}
         }
+      },
+      "BlogManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "01_framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlogManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogManagement.Application.Contracts.dll": {}
+        }
       }
     }
   },
@@ -528,11 +541,17 @@
       "type": "project",
       "path": "../01_framework/01_framework.csproj",
       "msbuildProject": "../01_framework/01_framework.csproj"
+    },
+    "BlogManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../BlogManagement.Application.Contracts/BlogManagement.Application.Contracts.csproj",
+      "msbuildProject": "../BlogManagement.Application.Contracts/BlogManagement.Application.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "01_framework >= 1.0.0"
+      "01_framework >= 1.0.0",
+      "BlogManagement.Application.Contracts >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -564,6 +583,9 @@
           "projectReferences": {
             "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj": {
               "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj"
+            },
+            "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
             }
           }
         }

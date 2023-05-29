@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gSkFftu5LhxGuP3k83sc002cExg4iKWag8qxGJ5/NyRgd1G28zjP8pCdlBqaxS8hoPITUImGfIiHaDDaqJuxhw==",
+  "dgSpecHash": "0z6Lw37+dFrtvkweVwfHqlLqDPpcCR9LT/uCcIAgnAT/6ANDcKVyOb35I1vuhw6hsVGbsMi0a68e/qZvfVsKiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
+  "projectFilePath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Omen 15\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

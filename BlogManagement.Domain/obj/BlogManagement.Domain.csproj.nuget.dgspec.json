@@ -4,14 +4,14 @@
     "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\01_framework\\01_framework.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\01_framework\\01_framework.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj",
         "projectName": "01_framework",
-        "projectPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\01_framework\\01_framework.csproj",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj",
         "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\01_framework\\obj\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,6 +65,65 @@
         }
       }
     },
+    "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
+        "projectName": "BlogManagement.Application.Contracts",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -91,6 +150,9 @@
             "projectReferences": {
               "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj": {
                 "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj"
+              },
+              "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
               }
             }
           }

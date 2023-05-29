@@ -1,6 +1,6 @@
 ﻿using _01_framework.Domain;
 
-namespace BlogManagement.Domain.Blog
+namespace BlogManagement.Domain.BlogAgg
 {
     public class Blog : EntityBase
     {

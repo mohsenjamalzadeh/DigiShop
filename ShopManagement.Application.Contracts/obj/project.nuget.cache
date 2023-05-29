@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H5pXX98YkjvbFAovlncgYGvS3YpBxMhlzJ0Z4/fkafvGo8zc1uFJtgSSv6kYUQfo1ovMRxNDHLuAERXcZum1yg==",
+  "dgSpecHash": "K+JTijkZAJnVAvr69WPjBghwgOhVrQiW6ZGGoHhRV9DhIMpz6oTHUKMXxdjokt1Kx/U1f4/x3YcDMU8YAa/c2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+  "projectFilePath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Omen 15\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",

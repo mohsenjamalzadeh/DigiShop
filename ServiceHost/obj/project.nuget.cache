@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QB2sz93xndshHzpvmRUu3NFuhmSK2dUcibiYQ6k665oG2ifnumV8+NYqq6ARnAEtp/vqfbSQ57Go78MlGtAbcA==",
+  "dgSpecHash": "+wkouM5RLyYJIdlYcexnokYMWbjszV8qo+owAEbG6ica5ipk+hiJKbhIPpWFwm6E3UwIsQfsLW+vTcn+Z7cD6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ServiceHost\\ServiceHost.csproj",
+  "projectFilePath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Omen 15\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Omen 15\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

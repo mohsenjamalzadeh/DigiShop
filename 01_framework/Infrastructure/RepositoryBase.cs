@@ -37,5 +37,28 @@ namespace _01_framework.Infrastructure
         {
             return _context.Set<T>().Any(expression);
         }
+
+        public async Task<T>? GetByAsync(TKey id) => await _context.Set<T>().FindAsync(id);
+
+
+        public async Task<T>? FirstOfDefault(Expression<Func<T, bool>> predicate) =>
+            await _context.Set<T>().FirstOrDefaultAsync(predicate);
+
+
+        public async Task CreateAsync(T entity)=> await _context.AddAsync(entity);
+         
+        public async Task<List<T>> GetAllAsync()=> await _context.Set<T>().AsNoTracking().ToListAsync();
+      
+
+        public async Task<List<T>> GetWhere(Expression<Func<T, bool>> predicate) =>
+        await _context.Set<T>().Where(predicate).AsNoTracking().ToListAsync();
+       
+
+        public async Task<bool> ExistsAsync(Expression<Func<T, bool>> predicate) =>
+      await _context.Set<T>().AsNoTracking().AnyAsync(predicate);
+     
+
+        public async Task SaveChangesAsync()=> await _context.SaveChangesAsync();
+      
     }
 }

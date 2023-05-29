@@ -3280,11 +3280,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj",
+      "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj",
       "projectName": "ShopManagement.Infrastructure.Configuration",
-      "projectPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj",
+      "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj",
       "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Infrastructure.Configuration\\obj\\",
+      "outputPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ShopManagement.Infrastructure.Configuration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3301,14 +3301,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Application\\ShopManagement.Application.csproj": {
-              "projectPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Application\\ShopManagement.Application.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ShopManagement.Application\\ShopManagement.Application.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ShopManagement.Application\\ShopManagement.Application.csproj"
             },
-            "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-              "projectPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
             },
-            "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
-              "projectPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
             }
           }
         }

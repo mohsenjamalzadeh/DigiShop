@@ -3543,11 +3543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ServiceHost\\ServiceHost.csproj",
+      "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ServiceHost\\ServiceHost.csproj",
       "projectName": "ServiceHost",
-      "projectPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ServiceHost\\ServiceHost.csproj",
+      "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ServiceHost\\ServiceHost.csproj",
       "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ServiceHost\\obj\\",
+      "outputPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ServiceHost\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3564,8 +3564,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj"
+            "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj"
             }
           }
         }

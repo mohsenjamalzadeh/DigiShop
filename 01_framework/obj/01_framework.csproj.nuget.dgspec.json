@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\01_framework\\01_framework.csproj": {}
+    "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\01_framework\\01_framework.csproj": {
+    "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\01_framework\\01_framework.csproj",
+        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj",
         "projectName": "01_framework",
-        "projectPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\01_framework\\01_framework.csproj",
+        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj",
         "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omen 15\\Source\\Repos\\DigiShop\\01_framework\\obj\\",
+        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
