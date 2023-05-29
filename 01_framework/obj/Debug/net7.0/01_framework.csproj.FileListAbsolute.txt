@@ -10,3 +10,15 @@ D:\Projects\DigiShop\DigiShop\01_framework\obj\Debug\net7.0\01_framework.dll
 D:\Projects\DigiShop\DigiShop\01_framework\obj\Debug\net7.0\refint\01_framework.dll
 D:\Projects\DigiShop\DigiShop\01_framework\obj\Debug\net7.0\01_framework.pdb
 D:\Projects\DigiShop\DigiShop\01_framework\obj\Debug\net7.0\ref\01_framework.dll
+D:\Digi\01_framework\bin\Debug\net7.0\01_framework.deps.json
+D:\Digi\01_framework\bin\Debug\net7.0\01_framework.dll
+D:\Digi\01_framework\bin\Debug\net7.0\01_framework.pdb
+D:\Digi\01_framework\obj\Debug\net7.0\01_framework.csproj.AssemblyReference.cache
+D:\Digi\01_framework\obj\Debug\net7.0\01_framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Digi\01_framework\obj\Debug\net7.0\01_framework.AssemblyInfoInputs.cache
+D:\Digi\01_framework\obj\Debug\net7.0\01_framework.AssemblyInfo.cs
+D:\Digi\01_framework\obj\Debug\net7.0\01_framework.csproj.CoreCompileInputs.cache
+D:\Digi\01_framework\obj\Debug\net7.0\01_framework.dll
+D:\Digi\01_framework\obj\Debug\net7.0\refint\01_framework.dll
+D:\Digi\01_framework\obj\Debug\net7.0\01_framework.pdb
+D:\Digi\01_framework\obj\Debug\net7.0\ref\01_framework.dll

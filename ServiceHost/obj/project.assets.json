@@ -3620,11 +3620,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\ServiceHost.csproj",
+      "projectUniqueName": "D:\\Digi\\ServiceHost\\ServiceHost.csproj",
       "projectName": "ServiceHost",
-      "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\ServiceHost.csproj",
+      "projectPath": "D:\\Digi\\ServiceHost\\ServiceHost.csproj",
       "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\obj\\",
+      "outputPath": "D:\\Digi\\ServiceHost\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3642,8 +3642,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj"
+            "D:\\Digi\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "D:\\Digi\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj"
             }
           }
         }
@@ -3687,13 +3687,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

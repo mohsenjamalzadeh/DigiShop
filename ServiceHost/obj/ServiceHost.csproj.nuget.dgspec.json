@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\ServiceHost.csproj": {}
+    "D:\\Digi\\ServiceHost\\ServiceHost.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\01_framework.csproj": {
+    "D:\\Digi\\01_framework\\01_framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\01_framework.csproj",
+        "projectUniqueName": "D:\\Digi\\01_framework\\01_framework.csproj",
         "projectName": "01_framework",
-        "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\01_framework.csproj",
+        "projectPath": "D:\\Digi\\01_framework\\01_framework.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\obj\\",
+        "outputPath": "D:\\Digi\\01_framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\ServiceHost.csproj": {
+    "D:\\Digi\\ServiceHost\\ServiceHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\ServiceHost.csproj",
+        "projectUniqueName": "D:\\Digi\\ServiceHost\\ServiceHost.csproj",
         "projectName": "ServiceHost",
-        "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\ServiceHost.csproj",
+        "projectPath": "D:\\Digi\\ServiceHost\\ServiceHost.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\obj\\",
+        "outputPath": "D:\\Digi\\ServiceHost\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
-                "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj"
+              "D:\\Digi\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
+                "projectPath": "D:\\Digi\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj"
               }
             }
           }
@@ -140,14 +140,14 @@
         }
       }
     },
-    "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+    "D:\\Digi\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\Digi\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "projectName": "ShopManagement.Application.Contracts",
-        "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectPath": "D:\\Digi\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application.Contracts\\obj\\",
+        "outputPath": "D:\\Digi\\ShopManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,8 +164,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\01_framework.csproj": {
-                "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\01_framework.csproj"
+              "D:\\Digi\\01_framework\\01_framework.csproj": {
+                "projectPath": "D:\\Digi\\01_framework\\01_framework.csproj"
               }
             }
           }
@@ -205,14 +205,14 @@
         }
       }
     },
-    "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application\\ShopManagement.Application.csproj": {
+    "D:\\Digi\\ShopManagement.Application\\ShopManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application\\ShopManagement.Application.csproj",
+        "projectUniqueName": "D:\\Digi\\ShopManagement.Application\\ShopManagement.Application.csproj",
         "projectName": "ShopManagement.Application",
-        "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application\\ShopManagement.Application.csproj",
+        "projectPath": "D:\\Digi\\ShopManagement.Application\\ShopManagement.Application.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application\\obj\\",
+        "outputPath": "D:\\Digi\\ShopManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -229,11 +229,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "D:\\Digi\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Digi\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               },
-              "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "D:\\Digi\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "D:\\Digi\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -267,14 +267,14 @@
         }
       }
     },
-    "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+    "D:\\Digi\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectUniqueName": "D:\\Digi\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "projectName": "ShopManagement.Domain",
-        "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectPath": "D:\\Digi\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Domain\\obj\\",
+        "outputPath": "D:\\Digi\\ShopManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -291,11 +291,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\01_framework.csproj": {
-                "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\01_framework.csproj"
+              "D:\\Digi\\01_framework\\01_framework.csproj": {
+                "projectPath": "D:\\Digi\\01_framework\\01_framework.csproj"
               },
-              "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "D:\\Digi\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Digi\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -329,14 +329,14 @@
         }
       }
     },
-    "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
+    "D:\\Digi\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj",
+        "projectUniqueName": "D:\\Digi\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj",
         "projectName": "ShopManagement.Infrastructure.Configuration",
-        "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj",
+        "projectPath": "D:\\Digi\\ShopManagement.Infrastructure.Configuration\\ShopManagement.Infrastructure.Configuration.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.Configuration\\obj\\",
+        "outputPath": "D:\\Digi\\ShopManagement.Infrastructure.Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -353,14 +353,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application\\ShopManagement.Application.csproj": {
-                "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Application\\ShopManagement.Application.csproj"
+              "D:\\Digi\\ShopManagement.Application\\ShopManagement.Application.csproj": {
+                "projectPath": "D:\\Digi\\ShopManagement.Application\\ShopManagement.Application.csproj"
               },
-              "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "D:\\Digi\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "D:\\Digi\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               },
-              "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
-                "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
+              "D:\\Digi\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+                "projectPath": "D:\\Digi\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj"
               }
             }
           }
@@ -394,14 +394,14 @@
         }
       }
     },
-    "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
+    "D:\\Digi\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
+        "projectUniqueName": "D:\\Digi\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
         "projectName": "ShopManagement.Infrastructure.EfCore",
-        "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
+        "projectPath": "D:\\Digi\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
         "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.EfCore\\obj\\",
+        "outputPath": "D:\\Digi\\ShopManagement.Infrastructure.EfCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -418,8 +418,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "D:\\Digi\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "D:\\Digi\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }

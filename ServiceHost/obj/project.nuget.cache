@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kI6Qc3SJqVZgNElq/nobK/wC30O6MrTBOq3N7pgCqyx9knOmDUde5HL7jc7yg9FNMX9sOll20obs0vBXmXyB7A==",
+  "dgSpecHash": "X97V0pgatJU1Clogo7IFkdIwDKw7W8xPHjpK9Os3f8GMpEv5AGsYUxx5rtAXOKGtr2NEKLgy6MvPldYjRzCbHw==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\ServiceHost.csproj",
+  "projectFilePath": "D:\\Digi\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohsen\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\mohsen\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -73,12 +73,5 @@
     "C:\\Users\\mohsen\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\mohsen\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Projects\\DigiShop\\DigiShop\\ServiceHost\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

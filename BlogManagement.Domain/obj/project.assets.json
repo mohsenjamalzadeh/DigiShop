@@ -241,6 +241,19 @@
         "runtime": {
           "bin/placeholder/01_framework.dll": {}
         }
+      },
+      "BlogManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "01_framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlogManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogManagement.Application.Contracts.dll": {}
+        }
       }
     }
   },
@@ -604,11 +617,17 @@
       "type": "project",
       "path": "../01_framework/01_framework.csproj",
       "msbuildProject": "../01_framework/01_framework.csproj"
+    },
+    "BlogManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../BlogManagement.Application.Contracts/BlogManagement.Application.Contracts.csproj",
+      "msbuildProject": "../BlogManagement.Application.Contracts/BlogManagement.Application.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "01_framework >= 1.0.0"
+      "01_framework >= 1.0.0",
+      "BlogManagement.Application.Contracts >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -617,11 +636,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\DigiShop\\DigiShop\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
+      "projectUniqueName": "D:\\Digi\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
       "projectName": "BlogManagement.Domain",
-      "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
+      "projectPath": "D:\\Digi\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
       "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\DigiShop\\DigiShop\\BlogManagement.Domain\\obj\\",
+      "outputPath": "D:\\Digi\\BlogManagement.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -638,8 +657,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\01_framework.csproj": {
-              "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\01_framework.csproj"
+            "D:\\Digi\\01_framework\\01_framework.csproj": {
+              "projectPath": "D:\\Digi\\01_framework\\01_framework.csproj"
+            },
+            "D:\\Digi\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
+              "projectPath": "D:\\Digi\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
             }
           }
         }
@@ -672,13 +694,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Projects\\DigiShop\\DigiShop\\BlogManagement.Domain\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

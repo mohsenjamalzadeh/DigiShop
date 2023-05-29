@@ -8,10 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\01_framework\01_framework.csproj" />
-<<<<<<< HEAD
-=======
     <ProjectReference Include="..\BlogManagement.Application.Contracts\BlogManagement.Application.Contracts.csproj" />
->>>>>>> 9fc7e0a30d4d8676243cb8d4b09acb2832fbe6ff
   </ItemGroup>
 
 </Project>

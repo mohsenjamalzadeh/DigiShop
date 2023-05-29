@@ -599,11 +599,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\01_framework.csproj",
+      "projectUniqueName": "D:\\Digi\\01_framework\\01_framework.csproj",
       "projectName": "01_framework",
-      "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\01_framework.csproj",
+      "projectPath": "D:\\Digi\\01_framework\\01_framework.csproj",
       "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\DigiShop\\DigiShop\\01_framework\\obj\\",
+      "outputPath": "D:\\Digi\\01_framework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -660,13 +660,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Projects\\DigiShop\\DigiShop\\01_framework\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

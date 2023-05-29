@@ -3601,11 +3601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
+      "projectUniqueName": "D:\\Digi\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
       "projectName": "ShopManagement.Infrastructure.EfCore",
-      "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
+      "projectPath": "D:\\Digi\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
       "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.EfCore\\obj\\",
+      "outputPath": "D:\\Digi\\ShopManagement.Infrastructure.EfCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3622,8 +3622,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-              "projectPath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+            "D:\\Digi\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+              "projectPath": "D:\\Digi\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
             }
           }
         }
@@ -3678,13 +3678,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.EfCore\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y6dxnCb8Rdspq3/8/4egw10XNHcnUxD29BCmVFdinqBNc+6LLvK9fN6cAUufLfZ2FqdADc4qySAYUUbKrTJ+rQ==",
+  "dgSpecHash": "lnrZfC5yhr4SF8cxawZ1VJeMKB62xR4kiaOvG1BRkLUhH+M25zw2uhFoKCAxpCdCAkzfiWGBWJbCikg0MdTsqA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
+  "projectFilePath": "D:\\Digi\\ShopManagement.Infrastructure.EfCore\\ShopManagement.Infrastructure.EfCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohsen\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\mohsen\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -74,12 +74,5 @@
     "C:\\Users\\mohsen\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\mohsen\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Projects\\DigiShop\\DigiShop\\ShopManagement.Infrastructure.EfCore\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

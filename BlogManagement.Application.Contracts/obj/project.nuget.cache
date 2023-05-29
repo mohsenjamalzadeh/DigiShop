@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EUP1rTztStGOEGw6nD7GBBgr9Eh6yAiDcyoX/hU+p4eLUk3KBsg8oqKAu5ukJdWZAg2qnE382BTQaVOPXKgXvw==",
+  "dgSpecHash": "7Gnsg2yIczs9pgh+8ChmuwbHEdPU10JFC9pO+pzxx/I26b+lJ1/TBTv79hvVQrzspqDMgMlX39ws4xaFTEVpIg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\DigiShop\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
+  "projectFilePath": "D:\\Digi\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
@@ -18,12 +18,5 @@
     "C:\\Users\\mohsen\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\mohsen\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Projects\\DigiShop\\DigiShop\\BlogManagement.Application.Contracts\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

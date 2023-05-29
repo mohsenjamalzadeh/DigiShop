@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application\\BlogManagement.Application.csproj": {}
+    "D:\\Digi\\BlogManagement.Application\\BlogManagement.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj": {
+    "D:\\Digi\\01_framework\\01_framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj",
+        "projectUniqueName": "D:\\Digi\\01_framework\\01_framework.csproj",
         "projectName": "01_framework",
-        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj",
-        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\obj\\",
+        "projectPath": "D:\\Digi\\01_framework\\01_framework.csproj",
+        "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
+        "outputPath": "D:\\Digi\\01_framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
@@ -61,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
+    "D:\\Digi\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\Digi\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
         "projectName": "BlogManagement.Application.Contracts",
-        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\obj\\",
+        "projectPath": "D:\\Digi\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
+        "outputPath": "D:\\Digi\\BlogManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +93,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj": {
-                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj"
+              "D:\\Digi\\01_framework\\01_framework.csproj": {
+                "projectPath": "D:\\Digi\\01_framework\\01_framework.csproj"
               }
             }
           }
@@ -120,21 +124,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application\\BlogManagement.Application.csproj": {
+    "D:\\Digi\\BlogManagement.Application\\BlogManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application\\BlogManagement.Application.csproj",
+        "projectUniqueName": "D:\\Digi\\BlogManagement.Application\\BlogManagement.Application.csproj",
         "projectName": "BlogManagement.Application",
-        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application\\BlogManagement.Application.csproj",
-        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application\\obj\\",
+        "projectPath": "D:\\Digi\\BlogManagement.Application\\BlogManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
+        "outputPath": "D:\\Digi\\BlogManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,11 +152,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
+              "D:\\Digi\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Digi\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
               },
-              "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Domain\\BlogManagement.Domain.csproj"
+              "D:\\Digi\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
+                "projectPath": "D:\\Digi\\BlogManagement.Domain\\BlogManagement.Domain.csproj"
               }
             }
           }
@@ -182,21 +186,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
+    "D:\\Digi\\BlogManagement.Domain\\BlogManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
+        "projectUniqueName": "D:\\Digi\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
         "projectName": "BlogManagement.Domain",
-        "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Omen 15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Domain\\obj\\",
+        "projectPath": "D:\\Digi\\BlogManagement.Domain\\BlogManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\mohsen\\.nuget\\packages\\",
+        "outputPath": "D:\\Digi\\BlogManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Omen 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -210,11 +214,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj": {
-                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\01_framework\\01_framework.csproj"
+              "D:\\Digi\\01_framework\\01_framework.csproj": {
+                "projectPath": "D:\\Digi\\01_framework\\01_framework.csproj"
               },
-              "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Omen 15\\source\\repos\\DigiShop\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
+              "D:\\Digi\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\Digi\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -244,7 +248,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
