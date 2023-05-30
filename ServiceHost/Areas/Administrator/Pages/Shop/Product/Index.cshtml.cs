@@ -19,7 +19,7 @@ namespace ServiceHost.Areas.Administrator.Pages.Shop.Product
         {
             _productCategoryApplication = productCategoryApplication;
             _productApplication = productApplication;
-            Products=new List<ProductViewModel>();
+            Products = new List<ProductViewModel>();
         }
 
         public void OnGet(SearchModel searchModel)
@@ -47,26 +47,26 @@ namespace ServiceHost.Areas.Administrator.Pages.Shop.Product
         public IActionResult OnGetEdit(long id)
         {
             var product = _productApplication.GetDetails(id);
-            product.Categories=_productCategoryApplication.GetCategories();
+            product.Categories = _productCategoryApplication.GetCategories();
             return Partial("./Edit", product);
         }
 
         public IActionResult OnPostEdit(EditProduct command)
         {
-            var result =_productApplication.EditProduct(command);
+            var result = _productApplication.EditProduct(command);
             return new JsonResult(result);
         }
 
         public IActionResult OnGetActive(long id)
         {
             var result = _productApplication.Active(id);
-            return Redirect("./Index");
+            return RedirectToPage("/Index");
         }
 
         public IActionResult OnGetDeActive(long id)
         {
             var result = _productApplication.DeActive(id);
-            return Redirect("./Index");
+            return RedirectToPage("/Index");
 
         }
     }

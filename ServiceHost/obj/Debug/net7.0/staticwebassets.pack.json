@@ -24565,12 +24565,36 @@
       "PackagePath": "staticwebassets\\AdminThem\\vendor\\wnumb\\wNumb.js"
     },
     {
+      "Id": "D:\\Digi\\ServiceHost\\wwwroot\\UploaderFile\\Games\\gta\\133298291014832976--960x0.webp",
+      "PackagePath": "staticwebassets\\UploaderFile\\Games\\gta\\133298291014832976--960x0.webp"
+    },
+    {
+      "Id": "D:\\Digi\\ServiceHost\\wwwroot\\UploaderFile\\ProductCategories\\133299315495439075--friends.s01e02.720p.bluray.x264--sujaidr.srt",
+      "PackagePath": "staticwebassets\\UploaderFile\\ProductCategories\\133299315495439075--friends.s01e02.720p.bluray.x264--sujaidr.srt"
+    },
+    {
+      "Id": "D:\\Digi\\ServiceHost\\wwwroot\\UploaderFile\\ProductCategories\\133299317733793614--friends.s01e02.720p.bluray.x264--sujaidr.srt",
+      "PackagePath": "staticwebassets\\UploaderFile\\ProductCategories\\133299317733793614--friends.s01e02.720p.bluray.x264--sujaidr.srt"
+    },
+    {
+      "Id": "D:\\Digi\\ServiceHost\\wwwroot\\UploaderFile\\ProductCategories\\133299318361762195--friends.s01e02.720p.bluray.x264--sujaidr.srt",
+      "PackagePath": "staticwebassets\\UploaderFile\\ProductCategories\\133299318361762195--friends.s01e02.720p.bluray.x264--sujaidr.srt"
+    },
+    {
+      "Id": "D:\\Digi\\ServiceHost\\wwwroot\\UploaderFile\\ProductCategories\\133299318450088602--friends.s01e02.720p.bluray.x264--sujaidr.srt",
+      "PackagePath": "staticwebassets\\UploaderFile\\ProductCategories\\133299318450088602--friends.s01e02.720p.bluray.x264--sujaidr.srt"
+    },
+    {
       "Id": "D:\\Digi\\ServiceHost\\wwwroot\\UploaderFile\\ProductCategories\\buyno\\133297804676968864--buyno-logo.png",
       "PackagePath": "staticwebassets\\UploaderFile\\ProductCategories\\buyno\\133297804676968864--buyno-logo.png"
     },
     {
       "Id": "D:\\Digi\\ServiceHost\\wwwroot\\UploaderFile\\ProductCategories\\toys\\133298267565170612--Untitled.jpg",
       "PackagePath": "staticwebassets\\UploaderFile\\ProductCategories\\toys\\133298267565170612--Untitled.jpg"
+    },
+    {
+      "Id": "D:\\Digi\\ServiceHost\\wwwroot\\UploaderFile\\Toys\\car\\133298290824754875--blacks-tobbi-kid-cars-th17t0638-64_600.webp",
+      "PackagePath": "staticwebassets\\UploaderFile\\Toys\\car\\133298290824754875--blacks-tobbi-kid-cars-th17t0638-64_600.webp"
     },
     {
       "Id": "D:\\Digi\\ServiceHost\\wwwroot\\css\\site.css",

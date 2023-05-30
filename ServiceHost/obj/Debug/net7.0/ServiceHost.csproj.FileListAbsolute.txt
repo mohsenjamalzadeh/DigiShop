@@ -174,3 +174,4 @@ D:\Digi\ServiceHost\obj\Debug\net7.0\refint\ServiceHost.dll
 D:\Digi\ServiceHost\obj\Debug\net7.0\ServiceHost.pdb
 D:\Digi\ServiceHost\obj\Debug\net7.0\ServiceHost.genruntimeconfig.cache
 D:\Digi\ServiceHost\obj\Debug\net7.0\ref\ServiceHost.dll
+D:\Digi\ServiceHost\obj\Debug\net7.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs

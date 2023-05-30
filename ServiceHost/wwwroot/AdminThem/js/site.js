@@ -208,13 +208,13 @@ jQuery.validator.unobtrusive.adapters.addBool("MaxFileSize");
 jQuery.validator.addMethod("FileExtentionAttr",
     function (value, element, params) {
         let extention = element.files[0].type.split("/")[1];
-let formatFile = element.dataset.valFileformat;
-let ext = extention.toLocaleLowerCase();
-if (!formatFile.includes(ext))
-    return false;
-else {
-    return true;
-}
+        let formatFile = element.dataset.valFileformat;
+        let ext = extention.toLocaleLowerCase();
+        if (!formatFile.includes(ext))
+            return false;
+        else {
+            return true;
+        }
 
 
     });
