@@ -22,7 +22,8 @@ namespace ShopManagement.Infrastructure.EfCore.Mapping
             builder.Property(p => p.PictureTitle).HasMaxLength(500).IsRequired();
             builder.Property(p => p.Description).HasMaxLength(500).IsRequired();
 
-            builder.HasOne(p=>p.productCategory).WithMany(p=>p.Products).HasForeignKey(p=>p.ProductCategoryId);
+            builder.HasOne(p => p.productCategory).WithMany(p => p.Products).HasForeignKey(p => p.ProductCategoryId);
+            builder.HasMany(p => p.ProductPictures).WithOne(p => p.Product).HasForeignKey(p => p.ProductId);
         }
     }
 }

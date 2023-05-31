@@ -1,0 +1,65 @@
+﻿@page
+@model ServiceHost.Areas.Administrator.Pages.Shop.ProductPicture.IndexModel
+@{
+}
+
+
+<div class="row page-titles">
+    <div class="card-header">
+        <h4 class="card-title">@Model.Product.Name Product Pictures  </h4>
+        <a href="#showmodal=@Url.Page("./Index", "Create",new {id=Model.Product.Id})" class="btn btn-success mb-1">Create Product Picture for @Model.Product.Name</a>
+    </div>
+</div>
+
+
+
+<div class="row">
+
+    @foreach (var item in Model.ProductPictures)
+    {
+
+        <div class="col-xl-4 col-lg-6 col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <div class="new-arrival-product">
+                        <div class="new-arrivals-img-contnent">
+                            <img class="img-fluid" src="/UploaderFile/@item.picture">
+                        </div>
+                        <div class="new-arrival-content row  mt-3">
+                            <div>
+                                @if (item.IsRemove)
+                                {
+                                    <span class="badge light badge-danger">DeActive</span>
+                                }
+                                else
+                                {
+                                    <span class="badge light badge-success">Active</span>
+
+                                }
+
+                                <span class="badge badge-primary light">@item.ModefiedDate</span>
+
+                                <a href="#showmodal=@Url.Page("./Index", "Edit",new {id=item.Id})" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
+
+                                @if (!item.IsRemove)
+                                {
+                                    <a asp-page="./Index" asp-page-handler="DeActive" asp-route-id="@item.Id" asp-route-productId="@Model.Product.Id"  class="btn btn-danger shadow btn-xs sharp"><i class="fa fa-trash"></i></a>
+                                }
+                                else
+                                {
+                                    <a asp-page="./Index" asp-page-handler="Active" asp-route-id="@item.Id" asp-route-productId="@Model.Product.Id" class="btn btn-success shadow btn-xs sharp me-1"><i class="fa fa-reply"></i></a>
+                                }
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+
+</div>

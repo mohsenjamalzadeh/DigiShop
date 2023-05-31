@@ -109,5 +109,11 @@ namespace ShopManagement.Application
         {
             return _productRepository.GetDetails(id);
         }
+
+        public ProductViewModel GetProductBy(long id)
+        {
+            return _productRepository.GetProductBy(id);
+           
+        }
     }
 }

@@ -9,6 +9,6 @@ public class ProductCategoryViewmodel
     public string PictureTitle { get; set; }
     public string Picture { get; set; }
     public string CreationDate { get; set; }
-    public string? ModefiedDate { get; set; }
+    public string ModefiedDate { get; set; }
     public bool IsActive { get; set; }
 }

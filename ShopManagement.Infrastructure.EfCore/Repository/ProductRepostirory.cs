@@ -70,5 +70,27 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
 
             return product;
         }
+
+        public ProductViewModel GetProductBy(long id)
+        {
+            return _context.Products.Select(p=>new ProductViewModel
+            {
+                Id=p.Id,
+                Name=p.Name
+            }).FirstOrDefault(p=>p.Id==id);
+        }
+
+        public (long id,string slug,string categorySlug) ProductAndCategory(long id)
+        {
+            var query=_context.Products.Include(x=>x.productCategory).Select(p=>new
+            {
+                Id=p.Id,
+                Slug=p.Slug,
+                categorySlug=p.productCategory.Slug,
+                
+            }).FirstOrDefault(p=>p.Id==id);
+
+            return (query.Id,query.Slug,query.categorySlug);
+        }
     }
 }

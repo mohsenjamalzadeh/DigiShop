@@ -24,4 +24,8 @@
     <ProjectReference Include="..\ShopManagement.Infrastructure.Configuration\ShopManagement.Infrastructure.Configuration.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\UploaderFile\" />
+  </ItemGroup>
+
 </Project>
