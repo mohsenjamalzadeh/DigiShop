@@ -1,0 +1,68 @@
+﻿@using InventoryManagement.Application.Constract.Inventory;
+@model List<InventoryOperationsViewModel>
+
+
+
+
+<div class="modal-header">
+    <a href="" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+    <h4 class="modal-title">Operations </h4>
+</div>
+
+<div class="modal-body">
+
+
+    <div class="table-responsive">
+        <table class="table table-responsive-md">
+            <thead>
+                <tr>
+                    <th style="width:80px;"><strong>#</strong></th>
+                    <th><strong>Operation</strong></th>
+                    <th><strong>Count</strong></th>
+                    <th><strong>Operator</strong></th>
+                    <th><strong>Creation Date</strong></th>
+                    <th><strong>Current Count</strong></th>
+                    <th><strong>Descripsion</strong></th>
+                    <th><strong>OrderId</strong></th>
+
+
+
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+
+                    <tr @*class="@(item.Operation ? "bg-success" : "bg-danger")"*@>
+                        <td><strong>@item.Id</strong></td>
+                        @if (item.Operation)
+                        {
+                            <td>Increase</td>
+                        }
+                        else
+                        {
+                            <td>Reduce</td>
+
+                        }
+
+                        <td><span class="badge @(item.Operation ? "badge-success" :"badge-danger") badge-pill">@item.Count</span></td>
+                        <td>@item.Operator</td>
+                        <td>@item.CreationDate</td>
+                        <td>@item.CurrentCount</td>
+                        <td>@item.Description</td>
+                        <td>@item.OrderId</td>
+
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+
+</div>
+
+
+

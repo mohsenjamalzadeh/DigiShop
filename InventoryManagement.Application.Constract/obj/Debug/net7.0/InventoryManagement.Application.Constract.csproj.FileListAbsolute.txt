@@ -1,0 +1,17 @@
+D:\Digi\InventoryManagement.Application.Constract\bin\Debug\net7.0\InventoryManagement.Application.Constract.deps.json
+D:\Digi\InventoryManagement.Application.Constract\bin\Debug\net7.0\InventoryManagement.Application.Constract.dll
+D:\Digi\InventoryManagement.Application.Constract\bin\Debug\net7.0\InventoryManagement.Application.Constract.pdb
+D:\Digi\InventoryManagement.Application.Constract\bin\Debug\net7.0\01_framework.dll
+D:\Digi\InventoryManagement.Application.Constract\bin\Debug\net7.0\01_framework.pdb
+D:\Digi\InventoryManagement.Application.Constract\obj\Debug\net7.0\InventoryManagement.Application.Constract.csproj.AssemblyReference.cache
+D:\Digi\InventoryManagement.Application.Constract\obj\Debug\net7.0\InventoryManagement.Application.Constract.GeneratedMSBuildEditorConfig.editorconfig
+D:\Digi\InventoryManagement.Application.Constract\obj\Debug\net7.0\InventoryManagement.Application.Constract.AssemblyInfoInputs.cache
+D:\Digi\InventoryManagement.Application.Constract\obj\Debug\net7.0\InventoryManagement.Application.Constract.AssemblyInfo.cs
+D:\Digi\InventoryManagement.Application.Constract\obj\Debug\net7.0\InventoryManagement.Application.Constract.csproj.CoreCompileInputs.cache
+D:\Digi\InventoryManagement.Application.Constract\obj\Debug\net7.0\InventoryManagement.Application.Constract.csproj.CopyComplete
+D:\Digi\InventoryManagement.Application.Constract\obj\Debug\net7.0\InventoryManagement.Application.Constract.dll
+D:\Digi\InventoryManagement.Application.Constract\obj\Debug\net7.0\refint\InventoryManagement.Application.Constract.dll
+D:\Digi\InventoryManagement.Application.Constract\obj\Debug\net7.0\InventoryManagement.Application.Constract.pdb
+D:\Digi\InventoryManagement.Application.Constract\obj\Debug\net7.0\ref\InventoryManagement.Application.Constract.dll
+D:\Digi\InventoryManagement.Application.Constract\bin\Debug\net7.0\ShopManagement.Application.Contracts.dll
+D:\Digi\InventoryManagement.Application.Constract\bin\Debug\net7.0\ShopManagement.Application.Contracts.pdb

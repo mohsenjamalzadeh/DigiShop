@@ -1,0 +1,68 @@
+﻿@page
+@model ServiceHost.Areas.Administrator.Pages.Inventory.Colors.IndexModel
+@{
+}
+
+
+
+<div class="row page-titles">
+    <div class="card-header">
+        <h4 class="card-title">Colors</h4>
+        <a href="#showmodal=@Url.Page("./Index", "Create")" class="btn btn-success mb-2">Add Color</a>
+
+    </div>
+</div>
+
+
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">List Colors</h4>
+
+
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-responsive-md">
+                    <thead>
+                        <tr>
+                            <th style="width:80px;"><strong>#</strong></th>
+                            <th><strong>Color</strong></th>
+                            <th><strong>HEX Code</strong></th>
+                            <th><strong>Actions</strong></th>
+
+
+
+                            
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Colors)
+                        {
+
+                            <tr>
+                                <td><strong>@item.Id</strong></td>
+                                <td>@item.Name</td>
+                                <td>@item.HEX</td>
+
+
+
+                                <td>
+
+                                    <a href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
+                                </td>
+
+
+
+                            </tr>
+
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

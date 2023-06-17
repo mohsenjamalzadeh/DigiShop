@@ -1,0 +1,16 @@
+﻿namespace InventoryManagement.Application.Constract.Inventory
+{
+    public class InventoryViewModel
+    {
+        public long Id { get; set; }
+        public long ProductId { get; set; }
+        public string Product { get; set; }
+        public long CurrentCount { get; set; }
+        public bool Instock { get; set; }
+        public string CreationDate { get; set; }
+        public string ModifiedDate { get; set; }
+    }
+
+
+
+}

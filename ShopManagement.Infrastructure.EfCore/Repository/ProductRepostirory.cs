@@ -92,5 +92,10 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
 
             return (query.Id,query.Slug,query.categorySlug);
         }
+
+        List<ProductViewModel> IProductRepository.GetAll()
+        {
+            return _context.Products.Select(p=> new ProductViewModel{Id=p.Id,Name=p.Name}).ToList();
+        }
     }
 }

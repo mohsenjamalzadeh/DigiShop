@@ -9,5 +9,6 @@ namespace ShopManagement.Domain.ProductAgg
         ProductViewModel GetProductBy(long id);
         List<ProductViewModel> GetAll(SearchModel searchModel);
         (long id, string slug, string categorySlug) ProductAndCategory(long id);
+        List<ProductViewModel> GetAll();
     }
 }

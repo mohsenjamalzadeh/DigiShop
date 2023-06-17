@@ -1,0 +1,109 @@
+﻿@page
+@model ServiceHost.Areas.Administrator.Pages.Inventory.IndexModel
+@{
+    ViewData["DashbordBar"] = "Inventory";
+}
+
+
+<div class="row page-titles">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active"><a href="javascript:void(0)">Inventory Search</a></li>
+
+    </ol>
+
+    <div class="card-body">
+        <div class="basic-form">
+            <form role="form" method="get">
+                <div class="row">
+                    <div class="col-sm-3 form-group">
+                        <select class="form-control" asp-for="searchModel.ProductId" asp-items="Model.Products">
+                            <option value="0">Products ...</option>
+                        </select>
+                    </div>
+
+                   
+                        <div class="col-sm-3 form-group checkbox checkbox-primary">
+                            <input asp-for="searchModel.InStock">
+                            <label asp-for="searchModel.InStock">
+                                Search in the non-existent
+                            </label>
+                        </div>
+                  
+                    <div class="col-sm-4">
+                        <button type="submit" class="btn btn-primary mb-2">Serarch</button>
+                        <a class="btn btn-primary mb-2" asp-page="./Index">Get All</a>
+
+                    </div>
+
+                </div>
+            </form>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">List Inventory</h4>
+            <a href="#showmodal=@Url.Page("./Index", "Create")" class="btn btn-success mb-2">Create Inventory</a>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-responsive-md">
+                    <thead>
+                        <tr>
+                            <th style="width:80px;"><strong>#</strong></th>
+                            <th><strong>Name</strong></th>
+                            <th><strong>Current Count</strong></th>
+                            <th><strong>InStock</strong></th>
+                            <th><strong>CreationDate</strong></th>
+                            <th><strong>ModefiedDate</strong></th>
+                            <th><strong>Actions</strong></th>
+                            <th></th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Inventories)
+                        {
+
+                            <tr>
+                                <td><strong>@item.Id</strong></td>
+                                <td>@item.Product</td>
+                                <td><span class="badge badge-success badge-pill">@item.CurrentCount</span></td>
+                                <td>
+                                    @if (!item.Instock)
+                                    {
+                                        <span class="badge light badge-danger">End of Inventory</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge light badge-success">Active</span>
+                                    }
+                                </td>
+                                    
+                                
+                                <td>@item.CreationDate</td>
+                                <td>@item.ModifiedDate</td>
+
+                                <td>
+                                    <a href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
+                                </td>
+
+                                <td><a  asp-page="./Details/Index" asp-route-id="@item.Id" class="btn btn-rounded btn-primary">Entering</a></td>
+                            </tr>
+
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

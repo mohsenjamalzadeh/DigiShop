@@ -1,0 +1,75 @@
+﻿@using InventoryManagement.Application.Constract.Inventory;
+@model AddProductVarient;
+
+
+<div class="modal-header">
+    <a href="" class="close" data-dismiss="modal" aria-hidden="true">×</a>
+    <h4 class="modal-title">Add AddProductVarient </h4>
+</div>
+<form asp-page="./Index" asp-page-handler="AddProductVarient"
+      method="post"
+      data-ajax="true"
+      data-callback=""
+      data-action="Refresh"
+      enctype="multipart/form-data">
+    <div class="modal-body">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="ColorId" class="control-label">Color</label>
+                    <select class="form-control" asp-for="ColorId" asp-items='new SelectList(Model.Colors,"Id","Name")'>
+                        <option value="0">Colors ...</option>
+                    </select>
+                    <span asp-validation-for="ColorId" class="error"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="SizeId" class="control-label">Size</label>
+                    <select class="form-control" asp-for="SizeId" asp-items='new SelectList(Model.Sizes,"Id","Name")'>
+                        <option value="0">Sizes ...</option>
+                    </select>
+                    <span asp-validation-for="SizeId" class="error"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Count" class="control-label">Count</label>
+                    <input type="number" class="form-control" asp-for="Count">
+                    <span asp-validation-for="Count" class="error"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="UnitPrice" class="control-label">Unit Price</label>
+                    <input type="number" class="form-control" asp-for="UnitPrice">
+                    <span asp-validation-for="UnitPrice" class="error"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group no-margin">
+                    <label asp-for="Description" class="control-label">Description</label>
+                    <textarea class="form-control autogrow" asp-for="Description"
+                              style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
+                    <span asp-validation-for="Description" class="error"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <input type="hidden" asp-for="InventoryId" value="@Model.InventoryId" />
+    <div class="modal-footer">
+        <a href="" type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</a>
+        <button type="submit" class="btn btn-info waves-effect waves-light">Create</button>
+    </div>
+</form>
+

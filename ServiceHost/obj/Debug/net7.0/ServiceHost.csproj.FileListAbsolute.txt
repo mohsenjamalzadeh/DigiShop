@@ -154,7 +154,6 @@ D:\Digi\ServiceHost\obj\Debug\net7.0\ServiceHost.GeneratedMSBuildEditorConfig.ed
 D:\Digi\ServiceHost\obj\Debug\net7.0\ServiceHost.AssemblyInfoInputs.cache
 D:\Digi\ServiceHost\obj\Debug\net7.0\ServiceHost.AssemblyInfo.cs
 D:\Digi\ServiceHost\obj\Debug\net7.0\ServiceHost.csproj.CoreCompileInputs.cache
-D:\Digi\ServiceHost\obj\Debug\net7.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cache
 D:\Digi\ServiceHost\obj\Debug\net7.0\ServiceHost.RazorAssemblyInfo.cache
 D:\Digi\ServiceHost\obj\Debug\net7.0\ServiceHost.RazorAssemblyInfo.cs
 D:\Digi\ServiceHost\obj\Debug\net7.0\staticwebassets\msbuild.ServiceHost.Microsoft.AspNetCore.StaticWebAssets.props
@@ -174,4 +173,13 @@ D:\Digi\ServiceHost\obj\Debug\net7.0\refint\ServiceHost.dll
 D:\Digi\ServiceHost\obj\Debug\net7.0\ServiceHost.pdb
 D:\Digi\ServiceHost\obj\Debug\net7.0\ServiceHost.genruntimeconfig.cache
 D:\Digi\ServiceHost\obj\Debug\net7.0\ref\ServiceHost.dll
-D:\Digi\ServiceHost\obj\Debug\net7.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs
+D:\Digi\ServiceHost\bin\Debug\net7.0\InventoryManagement.Domain.dll
+D:\Digi\ServiceHost\bin\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.dll
+D:\Digi\ServiceHost\bin\Debug\net7.0\InventoryManagement.Domain.pdb
+D:\Digi\ServiceHost\bin\Debug\net7.0\InventoryManagement.Infrastructure.EfCore.pdb
+D:\Digi\ServiceHost\bin\Debug\net7.0\InventoryManagement.Infrastructure.Configuration.dll
+D:\Digi\ServiceHost\bin\Debug\net7.0\InventoryManagement.Infrastructure.Configuration.pdb
+D:\Digi\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.Constract.dll
+D:\Digi\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.dll
+D:\Digi\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.pdb
+D:\Digi\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.Constract.pdb

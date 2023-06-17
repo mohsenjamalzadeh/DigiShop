@@ -1,4 +1,5 @@
 using _01_framework.Application;
+using InventoryManagement.Infrastructure.Configuration;
 using ServiceHost;
 using ShopManagement.Infrastructure.Configuration;
 
@@ -6,13 +7,18 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddMvc();
+
 
 string connection = builder.Configuration.GetConnectionString("DigiShop");
 
 ShopManagementBootstrapper.Configure(builder.Services, connection);
-
+InventoryManagementBootstrapper.Configure(builder.Services, connection);
 
 builder.Services.AddTransient<IFileUploader, FileUploader>();
+
+
+
 
 
 

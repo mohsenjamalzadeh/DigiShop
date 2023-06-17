@@ -1,0 +1,102 @@
+﻿@page
+@model ServiceHost.Areas.Administrator.Pages.Inventory.Details.IndexModel
+@{
+
+}
+
+
+<div class="row page-titles">
+    <div class="card-header">
+        <h4 class="card-title">Inventory Of @Model.Inventory.Product</h4>
+        @*   <a href="#showmodal=@Url.Page("./Index", "Create")" class="btn btn-success mb-1">View the entire warehouse turnover</a>*@
+        <a href="#showmodal=@Url.Page("./Index", "ShowOperationslog",new {inventoryId=Model.Inventory.Id})" class="btn btn-rounded btn-secondary">
+            <span class="btn-icon-start text-info">
+                <i class="fa fa-history color-warning"></i>
+            </span>View total circulation
+        </a>
+
+    </div>
+</div>
+
+
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">List Product Varinet</h4>
+            <a href="#showmodal=@Url.Page("./Index", "AddProductVarient",new {inventoryId=Model.Inventory.Id})" class="btn btn-success mb-2">Add Product Varinet</a>
+
+
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-responsive-md">
+                    <thead>
+                        <tr>
+                            <th style="width:80px;"><strong>#</strong></th>
+                            <th><strong>Color</strong></th>
+                            <th><strong>Size</strong></th>
+                            <th><strong>Count</strong></th>
+                            <th><strong>Unit Price</strong></th>
+                            <th><strong>Actions</strong></th>
+                            <th><strong></strong></th>
+                            <th><strong></strong></th>
+
+
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.ProductVarients)
+                        {
+
+                            <tr>
+                                <td><strong>@item.Id</strong></td>
+                                <td>@item.Color</td>
+                                <td>@item.Size</td>
+                                <td><span class="badge badge-success badge-pill">@item.Count</span></td>
+                                <td>@item.UnitPrice</td>
+
+
+                                <td>
+                                    <a href="#showmodal=@Url.Page("./Index", "Increase",new {inventoryId=Model.Inventory.Id,productVarientId=item.Id})" class="btn btn-rounded btn-success ">
+                                        <span class="btn-icon-start text-info">
+                                            <i class="fa fa-plus color-info"></i>
+                                        </span>Inventory increase
+                                    </a>
+
+                                    <a href="#showmodal=@Url.Page("./Index", "Decrease",new {inventoryId=Model.Inventory.Id,productVarientId=item.Id})" class="btn btn-rounded btn-danger">
+                                        <span class="btn-icon-start text-info">
+                                            <i class="fa fa-minus color-info"></i>
+                                        </span>Inventory Decrease
+                                    </a>
+
+                                    <a href="#showmodal=@Url.Page("./Index", "ChangePrice",new {inventoryId=Model.Inventory.Id,productVarientId=item.Id,price=item.UnitPrice})" class="btn btn-rounded btn-info">
+                                        <span class="btn-icon-start text-info">
+                                            <i class="fa fa-dollar color-warning"></i>
+                                        </span>Change Price
+                                    </a>
+
+
+                                    <a href="#showmodal=@Url.Page("./Index", "ProductVarientOperations",new {inventoryId=Model.Inventory.Id,productVarientId=item.Id})" class="btn btn-rounded btn-warning">
+                                        <span class="btn-icon-start text-info">
+                                            <i class="fa fa-history color-warning"></i>
+                                        </span>View warehouse turnover
+                                    </a>
+
+
+                                </td>
+
+
+
+                            </tr>
+
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
