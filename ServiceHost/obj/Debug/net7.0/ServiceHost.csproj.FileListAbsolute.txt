@@ -183,3 +183,14 @@ D:\Digi\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.Constract.d
 D:\Digi\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.dll
 D:\Digi\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.pdb
 D:\Digi\ServiceHost\bin\Debug\net7.0\InventoryManagement.Application.Constract.pdb
+D:\Digi\ServiceHost\bin\Debug\net7.0\DiscountManagement.Application.Contracts.dll
+D:\Digi\ServiceHost\bin\Debug\net7.0\DiscountManagement.Application.dll
+D:\Digi\ServiceHost\bin\Debug\net7.0\DiscountManagement.Domain.dll
+D:\Digi\ServiceHost\bin\Debug\net7.0\DiscountManagement.Infrastructure.Configuration.dll
+D:\Digi\ServiceHost\bin\Debug\net7.0\DiscountManagement.Infrastructure.EfCore.dll
+D:\Digi\ServiceHost\bin\Debug\net7.0\DiscountManagement.Infrastructure.Configuration.pdb
+D:\Digi\ServiceHost\bin\Debug\net7.0\DiscountManagement.Application.pdb
+D:\Digi\ServiceHost\bin\Debug\net7.0\DiscountManagement.Application.Contracts.pdb
+D:\Digi\ServiceHost\bin\Debug\net7.0\DiscountManagement.Domain.pdb
+D:\Digi\ServiceHost\bin\Debug\net7.0\DiscountManagement.Infrastructure.EfCore.pdb
+D:\Digi\ServiceHost\bin\Debug\net7.0\libman.json

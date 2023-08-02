@@ -73,29 +73,52 @@ namespace ShopManagement.Infrastructure.EfCore.Repository
 
         public ProductViewModel GetProductBy(long id)
         {
-            return _context.Products.Select(p=>new ProductViewModel
+            return _context.Products.Select(p => new ProductViewModel
             {
-                Id=p.Id,
-                Name=p.Name
-            }).FirstOrDefault(p=>p.Id==id);
+                Id = p.Id,
+                Name = p.Name
+            }).FirstOrDefault(p => p.Id == id);
         }
 
-        public (long id,string slug,string categorySlug) ProductAndCategory(long id)
+        public List<ProductViewModel> GetProductsforDisCounts(string term)
         {
-            var query=_context.Products.Include(x=>x.productCategory).Select(p=>new
+            if (!string.IsNullOrEmpty(term))
             {
-                Id=p.Id,
-                Slug=p.Slug,
-                categorySlug=p.productCategory.Slug,
-                
-            }).FirstOrDefault(p=>p.Id==id);
+                var query = _context.Products.Where(p => p.Name.Contains(term))
+                    .Select(p => new ProductViewModel
+                    {
+                        Id = p.Id,
+                        Name = p.Name,
+                    }).ToList();
+                return query;
+            }
+            else
+            {
+                var query = _context.Products.OrderByDescending(p => p.Id).Take(10).Select(p => new ProductViewModel
+                {
+                    Id = p.Id,
+                    Name = p.Name,
+                }).ToList();
+                return query;
+            }
+        }
 
-            return (query.Id,query.Slug,query.categorySlug);
+        public (long id, string slug, string categorySlug) ProductAndCategory(long id)
+        {
+            var query = _context.Products.Include(x => x.productCategory).Select(p => new
+            {
+                Id = p.Id,
+                Slug = p.Slug,
+                categorySlug = p.productCategory.Slug,
+
+            }).FirstOrDefault(p => p.Id == id);
+
+            return (query.Id, query.Slug, query.categorySlug);
         }
 
         List<ProductViewModel> IProductRepository.GetAll()
         {
-            return _context.Products.Select(p=> new ProductViewModel{Id=p.Id,Name=p.Name}).ToList();
+            return _context.Products.Select(p => new ProductViewModel { Id = p.Id, Name = p.Name }).ToList();
         }
     }
 }

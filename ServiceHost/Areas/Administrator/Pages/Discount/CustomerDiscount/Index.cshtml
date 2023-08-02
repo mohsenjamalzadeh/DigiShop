@@ -1,0 +1,155 @@
+﻿@page
+@model ServiceHost.Areas.Administrator.Pages.Discount.CustomerDiscount.IndexModel
+@{
+    ViewData["DashbordBar"] = "Customer Discount ";
+}
+
+
+
+
+
+<div class="row page-titles">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active"><a href="javascript:void(0)">Search Customer Discount </a></li>
+
+    </ol>
+
+    <div class="card-body">
+        <div class="basic-form">
+            <form role="form" method="get">
+                <div class="row">
+                    <div class="col-sm-3 form-group">
+                        <input asp-for="searchModel.StartDate" type="date" class="form-control" placeholder="Start Date">
+                    </div>
+
+
+                    <div class="col-sm-3 form-group">
+                        <input asp-for="searchModel.EndDate" type="date" class="form-control" placeholder="End Date">
+                    </div>
+
+                    @*<div class="col-sm-3 form-group">
+                    <select class="form-control" asp-for="searchModel.CategoryId" asp-items="Model.Categories">
+                    <option value="0">Category ...</option>
+                    </select>
+                    </div>*@
+                    <div class="col-sm-3 form-group checkbox checkbox-primary">
+                        <input asp-for="searchModel.IsActive">
+                        <label asp-for="searchModel.IsActive">
+                            Search inactive items
+                        </label>
+                    </div>
+                    <div class="col-sm-3 form-group">
+                        <button type="submit" class="btn btn-primary mb-2">Serarch</button>
+                        <a class="btn btn-primary mb-2" asp-page="./Index">Get All</a>
+
+                    </div>
+
+                </div>
+            </form>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col-lg-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title">List Products </h4>
+            <a asp-page="./Create" class="btn btn-success mb-2">Create customer Discount </a>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-responsive-md">
+                    <thead>
+                        <tr>
+                            <th><strong>#</strong></th>
+                            <th><strong>Product Name</strong></th>
+                            <th><strong>Is Active</strong></th>
+                            <th><strong>Use Percent Discount</strong></th>
+                            <th><strong>Discount Rate</strong></th>
+                            <th><strong>Discount Price</strong></th>
+                            <th><strong>Modefied Date</strong></th>
+                            <th><strong>Start Discount Date</strong></th>
+                            <th><strong>End Discount Date</strong></th>
+                            <th><strong>Actions</strong></th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.CustomerDiscounts)
+                        {
+
+                            <tr>
+                                <td><strong>@item.Id</strong></td>
+                                <td>
+
+                                    <span class="w-space-no">@item.Product</span>
+
+                                </td>
+
+                                <td>
+                                    @if (item.IsRemove)
+                                    {
+                                        <span class="badge light badge-danger">DeActive</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge light badge-success">Active</span>
+                                    }
+
+                                </td>
+
+                                <td>
+                                    @if (item.UsePercentDiscount)
+                                    {
+                                        <span style="color:green" class="fa fa-check"></span>
+                                    }
+                                    else
+                                    {
+                                        <span style="color:red" class="fa fa-close"></span>
+                                    }
+
+                                </td>
+
+
+
+                                <td>@item.DiscountRate</td>
+                                <td>@item.DiscountPrice</td>
+                                <td>@item.ModifiedDate</td>
+                                <td style="color:green">@item.StartDate</td>
+                                <td style="color:red">@item.EndDate</td>
+
+
+                                <td>
+                                    @*<div class="d-flex">
+
+                                <a href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
+
+                                @if (item.IsDeleted)
+                                {
+                                <a asp-page="./Index" asp-page-handler="Active" asp-route-id="@item.Id" class="btn btn-success shadow btn-xs sharp me-1"><i class="fa fa-reply"></i></a>
+                                }
+                                else
+                                {
+                                <a asp-page="./Index" asp-page-handler="DeActive" asp-route-id="@item.Id" class="btn btn-danger shadow btn-xs sharp me-1"><i class="fa fa-trash"></i></a>
+
+                                }
+
+                                <a asp-page="/Shop/ProductPicture/Index" asp-route-id="@item.Id" class="btn btn-warning shadow btn-xs sharp me-1"><i class="fa fa-camera"></i></a>
+                                </div>*@
+                                </td>
+
+                            </tr>
+
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "ServiceHost/1.0.0": {
         "dependencies": {
+          "DiscountManagement.Infrastructure.Configuration": "1.0.0",
           "InventoryManagement.Infrastructure.Configuration": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.5",
           "ShopManagement.Infrastructure.Configuration": "1.0.0"
@@ -648,6 +649,55 @@
           "01_framework.dll": {}
         }
       },
+      "DiscountManagement.Application/1.0.0": {
+        "dependencies": {
+          "DiscountManagement.Application.Contracts": "1.0.0",
+          "DiscountManagement.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DiscountManagement.Application.dll": {}
+        }
+      },
+      "DiscountManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "01_framework": "1.0.0"
+        },
+        "runtime": {
+          "DiscountManagement.Application.Contracts.dll": {}
+        }
+      },
+      "DiscountManagement.Domain/1.0.0": {
+        "dependencies": {
+          "01_framework": "1.0.0",
+          "DiscountManagement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "DiscountManagement.Domain.dll": {}
+        }
+      },
+      "DiscountManagement.Infrastructure.Configuration/1.0.0": {
+        "dependencies": {
+          "DiscountManagement.Application": "1.0.0",
+          "DiscountManagement.Application.Contracts": "1.0.0",
+          "DiscountManagement.Domain": "1.0.0",
+          "DiscountManagement.Infrastructure.EfCore": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "DiscountManagement.Infrastructure.Configuration.dll": {}
+        }
+      },
+      "DiscountManagement.Infrastructure.EfCore/1.0.0": {
+        "dependencies": {
+          "DiscountManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
+          "ShopManagement.Infrastructure.EfCore": "1.0.0"
+        },
+        "runtime": {
+          "DiscountManagement.Infrastructure.EfCore.dll": {}
+        }
+      },
       "InventoryManagement.Application/1.0.0": {
         "dependencies": {
           "InventoryManagement.Application.Constract": "1.0.0",
@@ -1256,6 +1306,31 @@
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
     "01_framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Infrastructure.Configuration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Infrastructure.EfCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

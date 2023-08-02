@@ -1,0 +1,15 @@
+D:\Digi\DiscountManagement.Application.Contracts\bin\Debug\net7.0\DiscountManagement.Application.Contracts.deps.json
+D:\Digi\DiscountManagement.Application.Contracts\bin\Debug\net7.0\DiscountManagement.Application.Contracts.dll
+D:\Digi\DiscountManagement.Application.Contracts\bin\Debug\net7.0\DiscountManagement.Application.Contracts.pdb
+D:\Digi\DiscountManagement.Application.Contracts\bin\Debug\net7.0\01_framework.dll
+D:\Digi\DiscountManagement.Application.Contracts\bin\Debug\net7.0\01_framework.pdb
+D:\Digi\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.csproj.AssemblyReference.cache
+D:\Digi\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Digi\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\Digi\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.AssemblyInfo.cs
+D:\Digi\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\Digi\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.csproj.CopyComplete
+D:\Digi\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.dll
+D:\Digi\DiscountManagement.Application.Contracts\obj\Debug\net7.0\refint\DiscountManagement.Application.Contracts.dll
+D:\Digi\DiscountManagement.Application.Contracts\obj\Debug\net7.0\DiscountManagement.Application.Contracts.pdb
+D:\Digi\DiscountManagement.Application.Contracts\obj\Debug\net7.0\ref\DiscountManagement.Application.Contracts.dll

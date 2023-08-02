@@ -120,5 +120,10 @@ namespace ShopManagement.Application
             return _productRepository.GetProductBy(id);
            
         }
+
+        public List<ProductViewModel> GetProductsforDisCounts(string term)
+        {
+            return _productRepository.GetProductsforDisCounts(term);
+        }
     }
 }

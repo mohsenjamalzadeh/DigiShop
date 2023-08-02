@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Digi\ServiceHost
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Digi/ServiceHost/Areas/Administrator/Pages/Discount/CustomerDiscount/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xEaXNjb3VudFxDdXN0b21lckRpc2NvdW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Digi/ServiceHost/Areas/Administrator/Pages/Discount/CustomerDiscount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xEaXNjb3VudFxDdXN0b21lckRpc2NvdW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Digi/ServiceHost/Areas/Administrator/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -13,7 +13,7 @@ namespace ShopManagement.Application.Contracts.Product
         EditProduct GetDetails(long id);
         List<ProductViewModel> GetAll(SearchModel searchModel);
         List<ProductViewModel> GetAll();
-        
+        List<ProductViewModel> GetProductsforDisCounts(string term);
         
     }
 }
