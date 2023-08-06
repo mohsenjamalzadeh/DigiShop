@@ -1,0 +1,141 @@
+﻿@page
+@model ServiceHost.Areas.Administrator.Pages.Discount.CustomerDiscount.EditModel
+@{
+}
+
+
+
+<div class="row page-titles">
+    <div class="card-header">
+        <h1>Edit @ViewData["name"] Discount</h1>
+    </div>
+</div>
+
+
+
+<div class="col-lg-12">
+    <div class="card">
+
+        <div class="card-body">
+
+            <form asp-page="./Edit" asp-page-handler="Edit"
+                  method="post">
+           
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Edit.StartDate" class="control-label">Start Date</label>
+                            <input type="date" class="form-control" asp-for="Edit.StartDate">
+                            <span asp-validation-for="Edit.StartDate" class="error"></span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Edit.EndDate" class="control-label">End Date</label>
+                            <input type="date" class="form-control" asp-for="Edit.EndDate">
+                            <span asp-validation-for="Edit.EndDate" class="error"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Edit.UsePercentDiscount" class="control-label">Use Percent Discount</label>
+                            <div>
+                                <input type="checkbox" class="form-check-input " asp-for="Edit.UsePercentDiscount">
+
+                            </div>
+                            <span asp-validation-for="Edit.UsePercentDiscount" class="error"></span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Edit.DiscountRate" class="control-label">Discountn Rate</label>
+                            @if (Model.Edit.UsePercentDiscount)
+                            {
+                                <input type="number" class="form-control" asp-for="Edit.DiscountRate">
+                            }
+                            else
+                            {
+                                <input type="number" class="form-control" asp-for="Edit.DiscountRate" disabled>
+
+                            }
+
+                            <span asp-validation-for="Edit.DiscountRate" class="error"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Edit.DiscountPrice" class="control-label">Discount Price</label>
+                            @if (!Model.Edit.UsePercentDiscount)
+                            {
+                                <input type="number" class="form-control" asp-for="Edit.DiscountPrice">
+                            }
+                            else
+                            {
+                                <input type="number" class="form-control" asp-for="Edit.DiscountPrice" disabled>
+                            }
+
+                            <span asp-validation-for="Edit.DiscountPrice" class="error"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label asp-for="Edit.Description" class="control-label">Description</label>
+                            <textarea class="form-control autogrow" asp-for="Edit.Description"
+                                      style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
+                            <span asp-validation-for="Edit.Description" class="error"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="hidden" asp-for="Edit.Id" value="@Model.Edit.Id" />
+                <input type="hidden" asp-for="Edit.ProductId" value="@Model.Edit.ProductId" />
+
+                <div class="p-3 rtl">
+                    <button type="submit" class="btn btn-info waves-effect waves-light">Edit</button>
+
+                    <a href="" type="button" class="btn btn-danger waves-effect" data-dismiss="modal">Back</a>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+
+    <script>
+
+
+
+        $("#Edit_UsePercentDiscount").click(function () {
+
+            if ($("#Edit_UsePercentDiscount").is(':checked')) {
+
+                $("#Edit_DiscountRate").removeAttr("disabled")
+                $("#Edit_DiscountPrice").prop("disabled", true)
+
+            } else {
+                $("#Edit_DiscountPrice").removeAttr("disabled")
+                $("#Edit_DiscountRate").prop("disabled", true)
+            }
+        })
+
+
+    </script>
+}

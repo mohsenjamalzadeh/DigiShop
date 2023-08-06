@@ -19,7 +19,7 @@ namespace DiscountManagement.Application
             var operation = new OperationResult();
 
             var customerDiscount = _customerDiscountRepositpry.GetBy(id);
-            if (customerDiscount != null)
+            if (customerDiscount == null)
                 return operation.Failed(ResultMessage.IsNotExistRecord);
 
             customerDiscount.Active();
@@ -33,7 +33,7 @@ namespace DiscountManagement.Application
             var operation = new OperationResult();
 
             var customerDiscount = _customerDiscountRepositpry.GetBy(id);
-            if (customerDiscount != null)
+            if (customerDiscount == null)
                 return operation.Failed(ResultMessage.IsNotExistRecord);
 
             customerDiscount.Delete();
@@ -67,12 +67,15 @@ namespace DiscountManagement.Application
             var operation = new OperationResult();
 
             var customerDiscount = _customerDiscountRepositpry.GetBy(command.Id);
-            if (customerDiscount != null)
+            if (customerDiscount == null)
                 return operation.Failed(ResultMessage.IsNotExistRecord);
 
             if (_customerDiscountRepositpry.IsExist(p => p.ProductId == command.ProductId &&
             (p.DiscountRate == command.DiscountRate || p.DiscountPrice == command.DiscountPrice) && p.Id != command.Id))
                 return operation.Failed(ResultMessage.IsDoblicated);
+
+            if(!customerDiscount.UsePercentDiscount)
+                command.DiscountRate=0;
 
             customerDiscount.Edit(command.ProductId, command.StartDate, command.EndDate, command.UsePercentDiscount, command.DiscountRate, command.DiscountPrice,command.Description);
             _customerDiscountRepositpry.SaveChanges();

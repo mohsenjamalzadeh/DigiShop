@@ -11,10 +11,10 @@ namespace DiscountManagement.Infrastructure.EfCore.Repository
     {
         private readonly DiscountContext _discountContext;
         private readonly ShopContext _shopContext;
-        public CustomerDiscountRepository(DiscountContext discountContext,ShopContext shopContext) : base(discountContext)
+        public CustomerDiscountRepository(DiscountContext discountContext, ShopContext shopContext) : base(discountContext)
         {
             _discountContext = discountContext;
-            _shopContext=shopContext;
+            _shopContext = shopContext;
         }
 
 
@@ -39,14 +39,17 @@ namespace DiscountManagement.Infrastructure.EfCore.Repository
 
             });
 
-            if (string.IsNullOrWhiteSpace(searchModel.StartDate.ToString("g")))
+            var startDate = searchModel.StartDate.ToString("g");
+            var endDate = searchModel.EndDate.ToString("g");
+
+            if (!string.IsNullOrWhiteSpace(startDate) && startDate != "1/1/0001 12:00 AM")
             {
-                query = query.Where(p => p.StartDateSe > searchModel.StartDate);
+                query = query.Where(p => p.StartDateSe >= searchModel.StartDate);
 
             }
-            if (string.IsNullOrWhiteSpace(searchModel.EndDate.ToString("g")))
+            if (!string.IsNullOrWhiteSpace(endDate) && endDate != "1/1/0001 12:00 AM")
             {
-                query = query.Where(p => p.EndDateSe > searchModel.EndDate);
+                query = query.Where(p => p.EndDateSe <= searchModel.EndDate);
 
             }
             if (searchModel.IsActive)
@@ -65,19 +68,20 @@ namespace DiscountManagement.Infrastructure.EfCore.Repository
 
         public EditDiscount GetDetails(long id)
         {
-            var discount=_discountContext.CustomerDiscounts.Select(p=> new EditDiscount
+            var discount = _discountContext.CustomerDiscounts.Select(p => new EditDiscount
             {
 
-                Id=p.Id,
-                ProductId=p.ProductId,
-                DiscountRate=p.DiscountRate,
-                UsePercentDiscount=p.UsePercentDiscount,
-                DiscountPrice=p.DiscountPrice,
-                StartDate=p.StartDate,
-                EndDate=p.EndDate,
+                Id = p.Id,
+                ProductId = p.ProductId,
+                DiscountRate = p.DiscountRate,
+                UsePercentDiscount = p.UsePercentDiscount,
+                DiscountPrice = p.DiscountPrice,
+                StartDate = p.StartDate,
+                EndDate = p.EndDate,
+                Description = p.Description
 
 
-            }).FirstOrDefault(p=>p.Id== id);
+            }).FirstOrDefault(p => p.Id == id);
 
             return discount;
         }

@@ -126,11 +126,11 @@
 
 
                                 <td>
-                                    @*<div class="d-flex">
+                                    <div class="d-flex">
 
-                                <a href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
+                                <a asp-page="./Edit" asp-route-id="@item.Id" asp-route-name="@item.Product" class="btn btn-primary shadow btn-xs sharp me-1"><i class="fa fa-pencil"></i></a>
 
-                                @if (item.IsDeleted)
+                                @if (item.IsRemove)
                                 {
                                 <a asp-page="./Index" asp-page-handler="Active" asp-route-id="@item.Id" class="btn btn-success shadow btn-xs sharp me-1"><i class="fa fa-reply"></i></a>
                                 }
@@ -140,8 +140,7 @@
 
                                 }
 
-                                <a asp-page="/Shop/ProductPicture/Index" asp-route-id="@item.Id" class="btn btn-warning shadow btn-xs sharp me-1"><i class="fa fa-camera"></i></a>
-                                </div>*@
+                                </div>
                                 </td>
 
                             </tr>

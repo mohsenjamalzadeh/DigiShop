@@ -21,5 +21,18 @@ namespace ServiceHost.Areas.Administrator.Pages.Discount.CustomerDiscount
         {
             CustomerDiscounts=_customerDiscountApplication.GetAll(searchModel);
         }
+
+
+        public IActionResult OnGetActive(long id)
+        {
+            var result=_customerDiscountApplication.ActiveDiscount(id);
+            return RedirectToPage("./Index");
+        }
+
+         public IActionResult OnGetDeActive(long id)
+        {
+            var result=_customerDiscountApplication.DeActiveDiscount(id);
+            return RedirectToPage("./Index");
+        }
     }
 }
